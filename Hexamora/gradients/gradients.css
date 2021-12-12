@@ -1,0 +1,19 @@
+.gradient-purple {
+    background-color: #a4508b;
+    background-image: linear-gradient(to right, #a4508b , #5f0a87);
+}
+
+.gradient-blue {
+    background-color: #4e0ead;
+    background-image: linear-gradient(to right, #482fa1 , #613b9c);
+}
+
+.gradient-green {
+    background-color: #34b85b;
+    background-image: linear-gradient(to right, #33a12f , #34b85b);
+}
+
+.gradient-cyan {
+    background-color: #34b8b8;
+    background-image: linear-gradient(to right, #236d5a , #34b4b8);
+}

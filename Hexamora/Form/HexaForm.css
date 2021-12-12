@@ -1,0 +1,36 @@
+.hexa-form-email {
+    border: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: rgb(245, 243, 240);
+    font-size: 100%;
+    padding-left: 5px;
+    text-decoration: wavy;
+    font-family: montserrat;
+}
+
+.hexa-form-email::placeholder {
+    padding-left: 5px;
+    color: #1d1c1c;
+}
+
+
+.hexa-form-email:hover {
+    background-color: #e8e4ee;
+}
+
+.hexa-form-email:focus {
+    border: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: rgb(245, 243, 240);
+    font-size: 100%;
+    padding-left: 5px;
+    text-decoration: wavy;
+    font-family: montserrat;
+}
+
+
+

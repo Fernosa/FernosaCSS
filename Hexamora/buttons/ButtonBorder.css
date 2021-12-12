@@ -1,0 +1,106 @@
+.button-border-white {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: rgba(255, 255, 255, 0.678) solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-white:hover {
+    border-left: rgba(255, 255, 255, 0.678) solid 2px;
+    border-top: rgba(255, 255, 255, 0.678) solid 2px;
+    border-right: rgba(255, 255, 255, 0.678) solid 2px;
+}
+
+.button-border-white:active {
+    border-left: white solid 2px;
+    border-top: white solid 2px;
+    border-right: white solid 2px;
+}
+
+.button-border-blue {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: rgb(76, 133, 207) solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-blue:hover {
+    border-left: rgb(76, 133, 207) solid 2px;
+    border-top: rgb(76, 133, 207) solid 2px;
+    border-right: rgb(76, 133, 207) solid 2px;
+}
+
+.button-border-blue:active {
+    border-left: rgb(124, 162, 211) solid 2px;
+    border-top: rgb(124, 162, 211) solid 2px;
+    border-right: rgb(124, 162, 211) solid 2px;
+}
+
+
+.button-border-green {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: #34b85b solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-green:hover {
+    border-left: #34b85b solid 2px;
+    border-top: #34b85b solid 2px;
+    border-right: #34b85b solid 2px;
+}
+
+.button-border-green:active {
+    border-left: #33a12f solid 2px;
+    border-top: #33a12f solid 2px;
+    border-right: #33a12f solid 2px;
+}
+
+
+.button-border-purple {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: #5f0a87 solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-purple:hover {
+    border-left: #5f0a87 solid 2px;
+    border-top: #5f0a87 solid 2px;
+    border-right: #5f0a87 solid 2px;
+}
+
+.button-border-purple:active {
+    border-left: #613b9c solid 2px;
+    border-top: #613b9c solid 2px;
+    border-right: #613b9c solid 2px;
+}
+

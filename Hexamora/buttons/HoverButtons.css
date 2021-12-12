@@ -1,0 +1,75 @@
+.hover-button-black {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: #000000 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-black:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-blue {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: rgb(76, 133, 207) solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-blue:hover {
+    color: white;
+    background-color: rgb(76, 133, 207);
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-purple {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: #613b9c solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-purple:hover {
+    color: white;
+    background-color: #613b9c;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-cyan {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: #34b8b8 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-cyan:hover {
+    color: white;
+    background-color: #34b8b8;
+    border: none;
+    font-weight: 500;
+}

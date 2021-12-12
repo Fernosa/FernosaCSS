@@ -1,0 +1,680 @@
+/*
+Dev: @BOLT
+Github: https://github.com/Adityeahhh
+Licencse: MIT
+
+Hexamora is an open source css library and any changes made to it should be commited to the official hexamora github repo
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.button-border-white {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: rgba(255, 255, 255, 0.678) solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-white:hover {
+    border-left: rgba(255, 255, 255, 0.678) solid 2px;
+    border-top: rgba(255, 255, 255, 0.678) solid 2px;
+    border-right: rgba(255, 255, 255, 0.678) solid 2px;
+}
+
+.button-border-white:active {
+    border-left: white solid 2px;
+    border-top: white solid 2px;
+    border-right: white solid 2px;
+}
+
+.button-border-blue {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: rgb(76, 133, 207) solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-blue:hover {
+    border-left: rgb(76, 133, 207) solid 2px;
+    border-top: rgb(76, 133, 207) solid 2px;
+    border-right: rgb(76, 133, 207) solid 2px;
+}
+
+.button-border-blue:active {
+    border-left: rgb(124, 162, 211) solid 2px;
+    border-top: rgb(124, 162, 211) solid 2px;
+    border-right: rgb(124, 162, 211) solid 2px;
+}
+
+
+.button-border-green {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: #34b85b solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-green:hover {
+    border-left: #34b85b solid 2px;
+    border-top: #34b85b solid 2px;
+    border-right: #34b85b solid 2px;
+}
+
+.button-border-green:active {
+    border-left: #33a12f solid 2px;
+    border-top: #33a12f solid 2px;
+    border-right: #33a12f solid 2px;
+}
+
+
+.button-border-purple {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    border-bottom: #5f0a87 solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-purple:hover {
+    border-left: #5f0a87 solid 2px;
+    border-top: #5f0a87 solid 2px;
+    border-right: #5f0a87 solid 2px;
+}
+
+.button-border-purple:active {
+    border-left: #613b9c solid 2px;
+    border-top: #613b9c solid 2px;
+    border-right: #613b9c solid 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hover-button-black {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: #000000 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-black:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-blue {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: rgb(76, 133, 207) solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-blue:hover {
+    color: white;
+    background-color: rgb(76, 133, 207);
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-purple {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: #613b9c solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-purple:hover {
+    color: white;
+    background-color: #613b9c;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-cyan {
+    height: 50px;
+    width: 125px;
+    color: black;
+    border-bottom: #34b8b8 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+}
+
+.hover-button-cyan:hover {
+    color: white;
+    background-color: #34b8b8;
+    border: none;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.minimalist-white {
+    font-family: raleway;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size-adjust: inherit;
+    width: 150px;
+    height: 55px;
+    background-color: #ffffff;
+    color: #BEC2CB;
+    border-top: #e8e4ee;
+    border-left: #e8e4ee;
+    border-right: #e8e4ee;
+    border-bottom: #e8e4ee;
+    box-shadow: #ddd3d3 1px 1px 1px 1px;
+    background-image: 'https://static.vecteezy.com/system/resources/thumbnails/000/576/820/small/picthai-free-vector60-8-01.jpg';
+}
+
+.minimalist-white:hover {
+    box-shadow: #c5c0c0 1px 2px 2px 1px;
+    color: #9a9a9c;
+}
+
+.minimalist-white:active {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hexa-form-email {
+    border: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: rgb(245, 243, 240);
+    font-size: 100%;
+    padding-left: 5px;
+    text-decoration: wavy;
+    font-family: montserrat;
+}
+
+.hexa-form-email::placeholder {
+    padding-left: 5px;
+    color: #1d1c1c;
+}
+
+
+.hexa-form-email:hover {
+    background-color: #e8e4ee;
+}
+
+.hexa-form-email:focus {
+    border: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: rgb(245, 243, 240);
+    font-size: 100%;
+    padding-left: 5px;
+    text-decoration: wavy;
+    font-family: montserrat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gradient-purple {
+    background-color: #a4508b;
+    background-image: linear-gradient(to right, #a4508b , #5f0a87);
+}
+
+.gradient-blue {
+    background-color: #4e0ead;
+    background-image: linear-gradient(to right, #482fa1 , #613b9c);
+}
+
+.gradient-green {
+    background-color: #34b85b;
+    background-image: linear-gradient(to right, #33a12f , #34b85b);
+}
+
+.gradient-cyan {
+    background-color: #34b8b8;
+    background-image: linear-gradient(to right, #236d5a , #34b4b8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alert-text {
+    position: inherit; left: 2%;
+    padding: 10px 10px 10px 10px; 
+    position: relative;
+    font-size: x-large; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.alert-blue {
+    width: 80%;
+    padding-right: 20px;
+    
+    color: #dfa7ff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #482fa1;
+    box-shadow: #000000 3px 3px;
+}
+
+
+
+.alert-purple {
+    width: 80%;
+    padding-right: 20px;
+    
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5f0a87;
+    box-shadow: #000000 3px 3px;
+}
+
+.alert-white {
+    width: 80%;
+    padding-right: 20px;
+    
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    box-shadow: #000000 3px 3px;
+}
+
+.alert-cyan {
+    width: 80%;
+    padding-right: 20px;
+    
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #34b8b8;
+    box-shadow: #000000 3px 3px;
+}
+
+.alert-green {
+    width: 80%;
+    padding-right: 20px;
+    
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #33a12f;
+    box-shadow: #000000 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pane-white {
+    height: 90vh;
+    width: 20%;
+    background-color: antiquewhite;
+}
+
+.pane-purple {
+    height: 90vh;
+    width: 20%;
+    background-color: #5f0a87;
+}
+
+.pane-blue {
+    height: 90vh;
+    width: 20%;
+    background-color: #482fa1;
+}
+
+.pane-black {
+    height: 90vh;
+    width: 20%;
+    background-color: rgb(0, 0, 0);
+}
+
+.pane-cyan {
+    height: 90vh;
+    width: 20%;
+    background-color: #34b4b8;
+}
+
+.pane-green {
+    height: 90vh;
+    width: 20%;
+    background-color: #33a12f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boldify {
+    font-weight: bolder;
+    font-family: montserrat;
+}
+
+.largify {
+    font-size: 7rem;
+}
+
+.thinify {
+    font-weight: 100;
+    font-family: montserrat;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.neonify-text-white {
+    text-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+}
+.neonify-text-cyan {
+    text-shadow: 0 0 10px #34b8b8, 0 0 40px #34b8b8, 0 0 80px #34b8b8;
+}
+
+.neonify-text-purple {
+    text-shadow: 0 0 10px #613b9c, 0 0 40px #613b9c, 0 0 80px #613b9c;
+}
+.neonify-text-black {
+    text-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+}
+.neonify-text-green {
+    text-shadow: 0 0 10px #34b85b, 0 0 40px #34b85b, 0 0 80px #34b85b;
+}
+.neonify-text-blue {
+    text-shadow: 0 0 10px #4e0ead, 0 0 40px #4e0ead, 0 0 80px #4e0ead;
+}
+
+
+.neonify-white {
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+}
+.neonify-cyan {
+    box-shadow: 0 0 10px #34b8b8, 0 0 40px #34b8b8, 0 0 80px #34b8b8;
+}
+
+.neonify-purple {
+    box-shadow: 0 0 10px #613b9c, 0 0 40px #613b9c, 0 0 80px #613b9c;
+}
+.neonify-black {
+    box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+}
+.neonify-green {
+    box-shadow: 0 0 10px #34b85b, 0 0 40px #34b85b, 0 0 80px #34b85b;
+}
+.neonify-blue {
+    box-shadow: 0 0 10px #4e0ead, 0 0 40px #4e0ead, 0 0 80px #4e0ead;
+}
+
+
+.pill-button-green {
+    height: 55px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #e9e9e9;
+    font-size: 24px;
+    background-image: linear-gradient(to bottom, transparent 50%, #06d395 50%);
+}
+
+@keyframes aquagreen {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #06d395 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #06d395 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #06d395 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #06d395 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #06d395 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #06d395 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #06d395 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #06d395 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #06d395 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #06d395 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #06d395 100%);}
+}
+
+.pill-button-green:hover {
+    animation-name: aquagreen;
+    animation-duration: 1s;
+    background-color: rgb(49, 44, 44);
+    color: #06d395;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #ffffff;
+}
