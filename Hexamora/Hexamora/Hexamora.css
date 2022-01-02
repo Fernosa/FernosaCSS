@@ -607,6 +607,7 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
 }
 
 
+
 .pill-button-green {
     height: 55px;
     width: fit-content;
@@ -618,28 +619,28 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
     font-size: 20px;
     font-family: raleway;
     font-weight: bold;
-    background-image: linear-gradient(to bottom, transparent 50%, #06d395 50%);
+    background-image: linear-gradient(to bottom, transparent 50%, #06d39588 50%);
 }
 
 @keyframes aquagreen {
-    0%   {background-image: linear-gradient(to bottom, transparent 55%, #06d395 55%);}
-    10%  {background-image: linear-gradient(to bottom, transparent 60%, #06d395 60%);}
-    20%  {background-image: linear-gradient(to bottom, transparent 65%, #06d395 65%);}
-    30%  {background-image: linear-gradient(to bottom, transparent 70%, #06d395 70%);}
-    40%  {background-image: linear-gradient(to bottom, transparent 75%, #06d395 75%);}
-    50%  {background-image: linear-gradient(to bottom, transparent 80%, #06d395 80%);}
-    60%  {background-image: linear-gradient(to bottom, transparent 85%, #06d395 85%);}
-    70%  {background-image: linear-gradient(to bottom, transparent 90%, #06d395 90%);}
-    80%  {background-image: linear-gradient(to bottom, transparent 93%, #06d395 93%);}
-    90%  {background-image: linear-gradient(to bottom, transparent 96%, #06d395 96%);}
-    100%  {background-image: linear-gradient(to bottom, transparent 100%, #06d395 100%);}
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #06d39588 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #06d39588 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #06d39588 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #06d39588 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #06d39588 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #06d39588 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #06d39588 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #06d39588 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #06d39588 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #06d39588 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #06d39588 100%);}
 }
 
 .pill-button-green:hover {
     animation-name: aquagreen;
     animation-duration: 750ms;
     background-color: rgb(49, 44, 44);
-    color: #06d395;
+    color: #06d39588;
 
     background-image: linear-gradient(to bottom, transparent 50%, rgb(49, 44, 44) 50%);
 
@@ -656,21 +657,21 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
     font-size: 20px;
     font-family: raleway;
     font-weight: 700;
-    background-image: linear-gradient(to bottom, transparent 50%, rgb(76, 133, 207) 50%);
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(76, 133, 207, 0.685) 50%);
 }
 
 @keyframes bluwu {
-    0%   {background-image: linear-gradient(to bottom, transparent 55%, rgb(76, 133, 207) 55%);}
-    10%  {background-image: linear-gradient(to bottom, transparent 60%, rgb(76, 133, 207) 60%);}
-    20%  {background-image: linear-gradient(to bottom, transparent 65%, rgb(76, 133, 207) 65%);}
-    30%  {background-image: linear-gradient(to bottom, transparent 70%, rgb(76, 133, 207) 70%);}
-    40%  {background-image: linear-gradient(to bottom, transparent 75%, rgb(76, 133, 207) 75%);}
-    50%  {background-image: linear-gradient(to bottom, transparent 80%, rgb(76, 133, 207) 80%);}
-    60%  {background-image: linear-gradient(to bottom, transparent 85%, rgb(76, 133, 207) 85%);}
-    70%  {background-image: linear-gradient(to bottom, transparent 90%, rgb(76, 133, 207) 90%);}
-    80%  {background-image: linear-gradient(to bottom, transparent 93%, rgb(76, 133, 207) 93%);}
-    90%  {background-image: linear-gradient(to bottom, transparent 96%, rgb(76, 133, 207) 96%);}
-    100%  {background-image: linear-gradient(to bottom, transparent 100%, rgb(76, 133, 207) 100%);}
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, rgba(76, 133, 207, 0.685) 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, rgba(76, 133, 207, 0.685) 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, rgba(76, 133, 207, 0.685) 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, rgba(76, 133, 207, 0.685) 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, rgba(76, 133, 207, 0.685) 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, rgba(76, 133, 207, 0.685) 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, rgba(76, 133, 207, 0.685) 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, rgba(76, 133, 207, 0.685) 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, rgba(76, 133, 207, 0.685) 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, rgba(76, 133, 207, 0.685) 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, rgba(76, 133, 207, 0.685) 100%);}
 }
 
 .pill-button-blue:hover {
