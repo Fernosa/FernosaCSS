@@ -1,13 +1,14 @@
 .button-border-white {
+    padding: 4px 20px 4px 20px;
     height: 50px;
-    width: 125px;
+    width: fit-content;
     color: white;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     border-bottom: rgba(255, 255, 255, 0.678) solid 2px;
     border-left: none;
     border-right: none;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'raleway', sans-serif;
     border-radius: 4px;
     
 }
@@ -25,15 +26,16 @@
 }
 
 .button-border-blue {
+    padding: 4px 20px 4px 20px;
     height: 50px;
-    width: 125px;
+    width: fit-content;
     color: white;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     border-bottom: rgb(76, 133, 207) solid 2px;
     border-left: none;
     border-right: none;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'raleway', sans-serif;
     border-radius: 4px;
     
 }
@@ -52,15 +54,16 @@
 
 
 .button-border-green {
+    padding: 4px 20px 4px 20px;
     height: 50px;
-    width: 125px;
+    width: fit-content;
     color: white;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     border-bottom: #34b85b solid 2px;
     border-left: none;
     border-right: none;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'raleway', sans-serif;
     border-radius: 4px;
     
 }
@@ -79,15 +82,16 @@
 
 
 .button-border-purple {
+    padding: 4px 20px 4px 20px;
     height: 50px;
-    width: 125px;
+    width: fit-content;
     color: white;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     border-bottom: #5f0a87 solid 2px;
     border-left: none;
     border-right: none;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'raleway', sans-serif;
     border-radius: 4px;
     
 }
@@ -103,4 +107,5 @@
     border-top: #613b9c solid 2px;
     border-right: #613b9c solid 2px;
 }
+
 
