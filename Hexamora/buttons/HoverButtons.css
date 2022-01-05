@@ -1,13 +1,15 @@
 .hover-button-black {
     height: 50px;
-    width: 125px;
-    color: black;
+    width: fit-content;
+    color: rgb(24, 21, 21);
     border-bottom: #000000 solid 3px;
     border-left: none;
     border-right: none;
+    font-weight: lighter;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'montserrat', sans-serif;
     border-radius: 4px;
+    padding: 5px 20px 5px 20px;
 }
 
 .hover-button-black:hover {
@@ -19,14 +21,15 @@
 
 .hover-button-blue {
     height: 50px;
-    width: 125px;
-    color: black;
+    width: fit-content;
+    color: rgb(24, 21, 21);
     border-bottom: rgb(76, 133, 207) solid 3px;
     border-left: none;
     border-right: none;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'montserrat', sans-serif;
     border-radius: 4px;
+    padding: 5px 20px 5px 20px;
 }
 
 .hover-button-blue:hover {
@@ -38,14 +41,15 @@
 
 .hover-button-purple {
     height: 50px;
-    width: 125px;
-    color: black;
+    width: fit-content;
+    color: rgb(24, 21, 21);
     border-bottom: #613b9c solid 3px;
     border-left: none;
     border-right: none;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'montserrat', sans-serif;
     border-radius: 4px;
+    padding: 5px 20px 5px 20px;
 }
 
 .hover-button-purple:hover {
@@ -57,14 +61,15 @@
 
 .hover-button-cyan {
     height: 50px;
-    width: 125px;
+    width: fit-content;
     color: black;
     border-bottom: #34b8b8 solid 3px;
     border-left: none;
     border-right: none;
     border-top: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'montserrat', sans-serif;
     border-radius: 4px;
+    padding: 5px 20px 5px 20px;
 }
 
 .hover-button-cyan:hover {
