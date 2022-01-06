@@ -3,8 +3,9 @@
     letter-spacing: 4px;
     font-weight: bold;
     font-size-adjust: inherit;
-    width: 150px;
+    width: fit-content;
     height: 55px;
+    padding: 20px 30px 20px 30px;
     background-color: #ffffff;
     color: #BEC2CB;
     border-top: #e8e4ee;
@@ -25,6 +26,3 @@
     color: black;
 }
 
-.dark-theme-button {
-    
-}
