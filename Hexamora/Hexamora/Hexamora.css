@@ -270,8 +270,9 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
     letter-spacing: 4px;
     font-weight: bold;
     font-size-adjust: inherit;
-    width: 150px;
+    width: fit-content;
     height: 55px;
+    padding: 20px 30px 20px 30px;
     background-color: #ffffff;
     color: #BEC2CB;
     border-top: #e8e4ee;
@@ -291,6 +292,7 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
     background-color: #ffffff;
     color: black;
 }
+
 
 
 
