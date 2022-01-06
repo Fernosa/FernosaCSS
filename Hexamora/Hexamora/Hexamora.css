@@ -621,6 +621,26 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
     box-shadow: 0 0 10px #4e0ead, 0 0 40px #4e0ead, 0 0 80px #4e0ead;
 }
 
+.select-black::selection {
+    background-color: black;
+    color: white;
+}
+
+.select-cyan::selection {
+    background-color: #208f8f;
+    color: white;
+}
+
+.select-purple::selection {
+    background-color: #613b9c;
+    color: rgb(255, 255, 255);
+}
+
+.select-green::selection {
+    background-color: #34b85b;
+    color: rgb(245, 243, 240);
+}
+
 
 
 .pill-button-green {
