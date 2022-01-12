@@ -11,6 +11,27 @@
     --aquagreen-: #0ccd91;
 }
 
+.select-black::selection {
+    background-color: black;
+    color: white;
+}
+
+.select-cyan::selection {
+    background-color: #208f8f;
+    color: white;
+}
+
+.select-purple::selection {
+    background-color: #613b9c;
+    color: rgb(255, 255, 255);
+}
+
+.select-green::selection {
+    background-color: #34b85b;
+    color: rgb(245, 243, 240);
+}
+
+
 * {
     padding: 0;
     margin: 0;
