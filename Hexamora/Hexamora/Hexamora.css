@@ -313,28 +313,52 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
     color: black;
 }
 
+@keyframes bordergreen {
+  5%   {border-top: solid 3px #2196f3;}
+  10%   {border-top: solid 4px #2196f3;}
+  15%  {border-top: solid 3px #2196f3;}
+  20%  {border: none;}
+
+  25%  {border-right: solid 3px #2196f3;}
+  30%  {border-right: solid 4px #2196f3;}
+  35%  {border-right: solid 3px #2196f3;}
+  40%  {border: none;}
+
+  45%  {border-bottom: solid 3px #2196f3;}
+  50%  {border-bottom: solid 4px #2196f3;}
+  55%  {border-bottom: solid 3px #2196f3;}
+  60%  {border: none;}
+
+  65%  {border-left: solid 3px #2196f3;}
+  70%  {border-left: solid 4px #2196f3;}
+  75%  {border-left: solid 3px #2196f3;}
+  80% {border: none;}
+
+  85%  {border-top: solid 3px #2196f3;}
+  90%  {border-top: solid 4px #2196f3;}
+  95%  {border-top: solid 3px #2196f3;}
+  100% {border: none;}
+}
 
 
+/* .border-animation [under construction]{
+  border: none;
+  font-family: raleway;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size-adjust: inherit;
+  width: fit-content;
+  height: 55px;
+  padding: 20px 30px 20px 30px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.border-animation:hover {
+  animation: bordergreen;
+  animation-duration: 1s;
+  border: solid 1px #2196f3;
+} */
 
 
 
@@ -344,37 +368,33 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
 
 
 .hexa-form-email {
-    border: none;
+    border: solid #db5b5b 4px;
     width: 500px;
     height: 40px;
-    border-radius: 0px;
-    background-color: rgb(245, 243, 240);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
     font-size: 100%;
-    padding-left: 5px;
     text-decoration: wavy;
     font-family: montserrat;
 }
 
 .hexa-form-email::placeholder {
-    padding-left: 5px;
-    color: #1d1c1c;
+    padding-left: 15px;
+    color: #221c1c;
+    font-size: 18px;
 }
 
-
 .hexa-form-email:hover {
-    background-color: #e8e4ee;
+  transition: 0.5s;
+  background-color: #db5b5b;
 }
 
 .hexa-form-email:focus {
-    border: none;
-    width: 500px;
-    height: 40px;
-    border-radius: 0px;
-    background-color: rgb(245, 243, 240);
-    font-size: 100%;
-    padding-left: 5px;
-    text-decoration: wavy;
-    font-family: montserrat;
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background-color: #db5b5b;
+  font-size: 100%;
+  text-decoration: wavy;
 }
 
 
@@ -640,6 +660,9 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
     box-shadow: 0 0 10px #4e0ead, 0 0 40px #4e0ead, 0 0 80px #4e0ead;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
 
 .select-black::selection {
     background-color: black;
@@ -1236,3 +1259,5 @@ Hexamora is an open source css library with custom buttons, forms, neon effects 
       display: block;
     }
   }
+
+
