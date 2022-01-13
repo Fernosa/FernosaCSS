@@ -4,6 +4,10 @@
     font-family: montserrat;
 }
 
+.strikethrough {
+    text-decoration: line-through;
+}
+
 .largify {
     font-size: 7rem;
 }
