@@ -2,11 +2,11 @@
 # Hexamora
 an upcoming open-source css library currently under development, please dont be surprised if some things like the form look bad, im fixing them as soon as i can
 
-#How to use it?
+# How to use it?
 
-##Download the hexamora.css file and link it like any other css file
+## Download the hexamora.css file and link it like any other css file
 
-##CDN
+## CDN
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Adityeahhh/Hexamora@main/Hexamora/Hexamora/Hexamora.css">
 ```
