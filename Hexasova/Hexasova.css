@@ -32,10 +32,7 @@ Hexasova is an open source css library with custom buttons, forms, neon effects,
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Orbitron&display=swap");
 
-.bora {
-  position: relative;
-  top: 200%;
-}
+
 
 .button-border-white {
   padding: 4px 20px 4px 20px;
