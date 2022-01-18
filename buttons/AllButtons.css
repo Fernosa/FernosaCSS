@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.hover-button-black {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: #000000 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-black:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-blue {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: rgb(76, 133, 207) solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-blue:hover {
+    color: white;
+    background-color: rgb(76, 133, 207);
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-purple {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: #613b9c solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-purple:hover {
+    color: white;
+    background-color: #613b9c;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-cyan {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: #34b8b8 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-cyan:hover {
+    color: white;
+    background-color: #34b8b8;
+    border: none;
+    font-weight: 500;
+}
+
+.button-border-white {
+    padding: 4px 20px 4px 20px;
+    height: 50px;
+    width: fit-content;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border-bottom: rgba(255, 255, 255, 0.678) solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'raleway', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-white:hover {
+    border-left: rgba(255, 255, 255, 0.678) solid 2px;
+    border-top: rgba(255, 255, 255, 0.678) solid 2px;
+    border-right: rgba(255, 255, 255, 0.678) solid 2px;
+}
+
+.button-border-white:active {
+    border-left: white solid 2px;
+    border-top: white solid 2px;
+    border-right: white solid 2px;
+}
+
+.button-border-blue {
+    padding: 4px 20px 4px 20px;
+    height: 50px;
+    width: fit-content;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border-bottom: rgb(76, 133, 207) solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'raleway', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-blue:hover {
+    border-left: rgb(76, 133, 207) solid 2px;
+    border-top: rgb(76, 133, 207) solid 2px;
+    border-right: rgb(76, 133, 207) solid 2px;
+}
+
+.button-border-blue:active {
+    border-left: rgb(124, 162, 211) solid 2px;
+    border-top: rgb(124, 162, 211) solid 2px;
+    border-right: rgb(124, 162, 211) solid 2px;
+}
+
+
+.button-border-green {
+    padding: 4px 20px 4px 20px;
+    height: 50px;
+    width: fit-content;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border-bottom: #34b85b solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'raleway', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-green:hover {
+    border-left: #34b85b solid 2px;
+    border-top: #34b85b solid 2px;
+    border-right: #34b85b solid 2px;
+}
+
+.button-border-green:active {
+    border-left: #33a12f solid 2px;
+    border-top: #33a12f solid 2px;
+    border-right: #33a12f solid 2px;
+}
+
+
+.button-border-purple {
+    padding: 4px 20px 4px 20px;
+    height: 50px;
+    width: fit-content;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border-bottom: #5f0a87 solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'raleway', sans-serif;
+    border-radius: 4px;
+    
+}
+
+.button-border-purple:hover {
+    border-left: #5f0a87 solid 2px;
+    border-top: #5f0a87 solid 2px;
+    border-right: #5f0a87 solid 2px;
+}
+
+.button-border-purple:active {
+    border-left: #613b9c solid 2px;
+    border-top: #613b9c solid 2px;
+    border-right: #613b9c solid 2px;
+}
+
+.pill-button-green {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #ffffff;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, transparent 50%, #06d39588 50%);
+}
+
+@keyframes aquagreen {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #06d39588 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #06d39588 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #06d39588 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #06d39588 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #06d39588 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #06d39588 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #06d39588 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #06d39588 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #06d39588 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #06d39588 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #06d39588 100%);}
+}
+
+.pill-button-green:hover {
+    animation-name: aquagreen;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: #06d39588;
+
+    background-image: linear-gradient(to bottom, transparent 50%, rgb(49, 44, 44) 50%);
+
+}
+
+.pill-button-blue {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #fafafa;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(76, 133, 207, 0.685) 50%);
+}
+
+@keyframes bluwu {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, rgba(76, 133, 207, 0.685) 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, rgba(76, 133, 207, 0.685) 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, rgba(76, 133, 207, 0.685) 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, rgba(76, 133, 207, 0.685) 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, rgba(76, 133, 207, 0.685) 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, rgba(76, 133, 207, 0.685) 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, rgba(76, 133, 207, 0.685) 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, rgba(76, 133, 207, 0.685) 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, rgba(76, 133, 207, 0.685) 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, rgba(76, 133, 207, 0.685) 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, rgba(76, 133, 207, 0.685) 100%);}
+}
+
+.pill-button-blue:hover {
+    animation-name: bluwu;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: rgb(124, 162, 211);
+
+    background-image: linear-gradient(to bottom, transparent 50%, rgb(49, 44, 44) 50%);
+}
+
+
+.pill-button-cyan {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #fafafa;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, transparent 50%, #34b8b8 50%);
+}
+
+@keyframes cyann {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #34b8b8 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #34b8b8 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #34b8b8 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #34b8b8 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #34b8b8 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #34b8b8 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #34b8b8 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #34b8b8 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #34b8b8 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #34b8b8 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #34b8b8 100%);}
+}
+
+.pill-button-cyan:hover {
+    animation-name: cyann;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: #34b8b8;
+
+    background-image: linear-gradient(to bottom, transparent 100%, rgb(49,44,44) 100%);
+}
+
+.pill-button-purple {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #fafafa;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, transparent 50%, #613b9c 50%);
+}
+
+@keyframes purplen {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #613b9c 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #613b9c 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #613b9c 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #613b9c 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #613b9c 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #613b9c 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #613b9c 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #613b9c 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #613b9c 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #613b9c 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #613b9c 100%);}
+}
+
+.pill-button-purple:hover {
+    animation-name: purplen;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: #a26bf5;
+
+    background-image: linear-gradient(to bottom, transparent 100%, rgb(49,44,44) 100%);
+}
+
+
+.minimalist-white {
+    font-family: raleway;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size-adjust: inherit;
+    width: fit-content;
+    height: 55px;
+    padding: 20px 30px 20px 30px;
+    background-color: #ffffff;
+    color: #BEC2CB;
+    border-top: #e8e4ee;
+    border-left: #e8e4ee;
+    border-right: #e8e4ee;
+    border-bottom: #e8e4ee;
+    box-shadow: #ddd3d3 1px 1px 1px 1px;
+    background-image: 'https://static.vecteezy.com/system/resources/thumbnails/000/576/820/small/picthai-free-vector60-8-01.jpg';
+}
+
+.minimalist-white:hover {
+    box-shadow: #c5c0c0 1px 2px 2px 1px;
+    color: #9a9a9c;
+}
+
+.minimalist-white:active {
+    background-color: #ffffff;
+    color: black;
+}
+
