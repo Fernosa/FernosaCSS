@@ -1,0 +1,150 @@
+
+.pill-button-green {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #ffffff;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, transparent 50%, #06d39588 50%);
+}
+
+@keyframes aquagreen {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #06d39588 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #06d39588 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #06d39588 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #06d39588 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #06d39588 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #06d39588 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #06d39588 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #06d39588 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #06d39588 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #06d39588 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #06d39588 100%);}
+}
+
+.pill-button-green:hover {
+    animation-name: aquagreen;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: #06d39588;
+
+    background-image: linear-gradient(to bottom, transparent 50%, rgb(49, 44, 44) 50%);
+
+}
+
+.pill-button-blue {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #fafafa;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(76, 133, 207, 0.685) 50%);
+}
+
+@keyframes bluwu {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, rgba(76, 133, 207, 0.685) 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, rgba(76, 133, 207, 0.685) 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, rgba(76, 133, 207, 0.685) 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, rgba(76, 133, 207, 0.685) 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, rgba(76, 133, 207, 0.685) 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, rgba(76, 133, 207, 0.685) 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, rgba(76, 133, 207, 0.685) 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, rgba(76, 133, 207, 0.685) 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, rgba(76, 133, 207, 0.685) 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, rgba(76, 133, 207, 0.685) 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, rgba(76, 133, 207, 0.685) 100%);}
+}
+
+.pill-button-blue:hover {
+    animation-name: bluwu;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: rgb(124, 162, 211);
+
+    background-image: linear-gradient(to bottom, transparent 50%, rgb(49, 44, 44) 50%);
+}
+
+
+.pill-button-cyan {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #fafafa;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, transparent 50%, #34b8b8 50%);
+}
+
+@keyframes cyann {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #34b8b8 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #34b8b8 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #34b8b8 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #34b8b8 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #34b8b8 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #34b8b8 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #34b8b8 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #34b8b8 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #34b8b8 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #34b8b8 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #34b8b8 100%);}
+}
+
+.pill-button-cyan:hover {
+    animation-name: cyann;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: #34b8b8;
+
+    background-image: linear-gradient(to bottom, transparent 100%, rgb(49,44,44) 100%);
+}
+
+.pill-button-purple {
+    height: 55px;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(51, 45, 45);
+    color: #fafafa;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, transparent 50%, #613b9c 50%);
+}
+
+@keyframes purplen {
+    0%   {background-image: linear-gradient(to bottom, transparent 55%, #613b9c 55%);}
+    10%  {background-image: linear-gradient(to bottom, transparent 60%, #613b9c 60%);}
+    20%  {background-image: linear-gradient(to bottom, transparent 65%, #613b9c 65%);}
+    30%  {background-image: linear-gradient(to bottom, transparent 70%, #613b9c 70%);}
+    40%  {background-image: linear-gradient(to bottom, transparent 75%, #613b9c 75%);}
+    50%  {background-image: linear-gradient(to bottom, transparent 80%, #613b9c 80%);}
+    60%  {background-image: linear-gradient(to bottom, transparent 85%, #613b9c 85%);}
+    70%  {background-image: linear-gradient(to bottom, transparent 90%, #613b9c 90%);}
+    80%  {background-image: linear-gradient(to bottom, transparent 93%, #613b9c 93%);}
+    90%  {background-image: linear-gradient(to bottom, transparent 96%, #613b9c 96%);}
+    100%  {background-image: linear-gradient(to bottom, transparent 100%, #613b9c 100%);}
+}
+
+.pill-button-purple:hover {
+    animation-name: purplen;
+    animation-duration: 750ms;
+    background-color: rgb(49, 44, 44);
+    color: #a26bf5;
+
+    background-image: linear-gradient(to bottom, transparent 100%, rgb(49,44,44) 100%);
+}

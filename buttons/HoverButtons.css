@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.hover-button-black {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: #000000 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-black:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-blue {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: rgb(76, 133, 207) solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-blue:hover {
+    color: white;
+    background-color: rgb(76, 133, 207);
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-purple {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: #613b9c solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-purple:hover {
+    color: white;
+    background-color: #613b9c;
+    border: none;
+    font-weight: 500;
+}
+
+.hover-button-cyan {
+    height: 50px;
+    width: fit-content;
+    color: black;
+    border-bottom: #34b8b8 solid 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hover-button-cyan:hover {
+    color: white;
+    background-color: #34b8b8;
+    border: none;
+    font-weight: 500;
+}

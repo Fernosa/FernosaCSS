@@ -1,0 +1,80 @@
+
+.boldify {
+    font-weight: bolder;
+    font-family: montserrat;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.largify {
+    font-size: 7rem;
+}
+
+.thinify {
+    font-weight: 100;
+    font-family: montserrat;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.neonify-text-white {
+    text-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+}
+.neonify-text-cyan {
+    text-shadow: 0 0 10px #34b8b8, 0 0 40px #34b8b8, 0 0 80px #34b8b8;
+}
+
+.neonify-text-purple {
+    text-shadow: 0 0 10px #613b9c, 0 0 40px #613b9c, 0 0 80px #613b9c;
+}
+.neonify-text-black {
+    text-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+}
+.neonify-text-green {
+    text-shadow: 0 0 10px #34b85b, 0 0 40px #34b85b, 0 0 80px #34b85b;
+}
+.neonify-text-blue {
+    text-shadow: 0 0 10px #4e0ead, 0 0 40px #4e0ead, 0 0 80px #4e0ead;
+}
+
+
+.neonify-white {
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+}
+.neonify-cyan {
+    box-shadow: 0 0 10px #34b8b8, 0 0 40px #34b8b8, 0 0 80px #34b8b8;
+}
+
+.neonify-purple {
+    box-shadow: 0 0 10px #613b9c, 0 0 40px #613b9c, 0 0 80px #613b9c;
+}
+.neonify-black {
+    box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+}
+.neonify-green {
+    box-shadow: 0 0 10px #34b85b, 0 0 40px #34b85b, 0 0 80px #34b85b;
+}
+.neonify-blue {
+    box-shadow: 0 0 10px #4e0ead, 0 0 40px #4e0ead, 0 0 80px #4e0ead;
+}
+
+.select-black::selection {
+    background-color: black;
+    color: white;
+}
+
+.select-cyan::selection {
+    background-color: #208f8f;
+    color: white;
+}
+
+.select-purple::selection {
+    background-color: #613b9c;
+    color: rgb(255, 255, 255);
+}
+
+.select-green::selection {
+    background-color: #34b85b;
+    color: rgb(245, 243, 240);
+}

@@ -1,0 +1,30 @@
+.minimalist-white {
+    font-family: raleway;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size-adjust: inherit;
+    width: fit-content;
+    height: 55px;
+    padding: 20px 30px 20px 30px;
+    background-color: #ffffff;
+    color: #BEC2CB;
+    border-top: #e8e4ee;
+    border-left: #e8e4ee;
+    border-right: #e8e4ee;
+    border-bottom: #e8e4ee;
+    box-shadow: #ddd3d3 1px 1px 1px 1px;
+    background-image: 'https://static.vecteezy.com/system/resources/thumbnails/000/576/820/small/picthai-free-vector60-8-01.jpg';
+}
+
+.minimalist-white:hover {
+    box-shadow: #c5c0c0 1px 2px 2px 1px;
+    color: #9a9a9c;
+}
+
+.minimalist-white:active {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
