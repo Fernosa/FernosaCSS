@@ -4,7 +4,10 @@
 an upcoming open-source css library currently under development, please dont worry abt optimization, the classes you havent used in the project WILL NOT get added to the css file.
 
 # How to use it?
+
 YOU NEED NODE INSTALLED FOR THE FOLLOWING:
+
+Alright, so first of all download the repository and remove all the readme files because they are annoying
 
 ```html
 npm init -y
@@ -23,7 +26,7 @@ npm install --save-dev gulp-purgecss
 then open the terminal and go to directory. run the command: gulp 
 
 
-this will start the gulp server which will convert the scss into css as well as purge unneseccery css. The best part is that even after the unneseccery css is removed you can still keep on using the library and the used classes will get added the the .css file. The only downside is that you won't get auto-complete of classes on vscode, we will fix that by making a vscode fernosa extension soon!
+this will start the gulp server which will convert the scss into css as well as purge unnecessary css. The best part is that even after the unnecessary css is removed you can still keep on using the library and the used classes will get added the the .css file. The only downside is that you won't get auto-complete of classes on vscode, we will fix that by making a vscode fernosa extension soon!
 
 WE RECOMMEND TO ONLY USE gulp AFTER YOU FINISH DEVELOPMENT AND PLAN ON DEPLOYING.
 
