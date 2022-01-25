@@ -1,4 +1,4 @@
-# Hexasova
+# Fernosa
 an upcoming open-source css library currently under development, please dont worry abt optimization, the classes you havent used in the project WILL NOT get added to the css file.
 
 # How to use it?
