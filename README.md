@@ -25,10 +25,11 @@ npm install --save-dev gulp-purgecss
 
 then open the terminal and go to directory. run the command: gulp 
 
+#ONLY USE gulp AFTER YOU FINISH DEVELOPMENT AND PLAN ON DEPLOYING.
 
-this will start the gulp server which will convert the scss into css as well as purge unnecessary css. The best part is that even after the unnecessary css is removed you can still keep on using the library and the used classes will get added the the .css file. The only downside is that you won't get auto-complete of classes on vscode, we will fix that by making a vscode fernosa extension soon!
 
-WE RECOMMEND TO ONLY USE gulp AFTER YOU FINISH DEVELOPMENT AND PLAN ON DEPLOYING.
+
+this will start the gulp server which will purge the unnecessary css.
 
 
 if you still want to test fernosa out we do have a testing kit, just link the cdn like any other css file. BUT DO NOT USE THE TESTING KIT IN PRODUCTION ENVIORNMENT
