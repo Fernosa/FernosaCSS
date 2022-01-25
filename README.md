@@ -1,5 +1,6 @@
 # Fernosa
 [discord](https://discord.gg/8v6nZH67)
+
 an upcoming open-source css library currently under development, please dont worry abt optimization, the classes you havent used in the project WILL NOT get added to the css file.
 
 # How to use it?
@@ -27,7 +28,7 @@ this will start the gulp server which will convert the scss into css as well as 
 WE RECOMMEND TO ONLY USE gulp AFTER YOU FINISH DEVELOPMENT AND PLAN ON DEPLOYING.
 
 
-if you still want to test fernosa out we do have a testing kit. BUT DO NOT USE THE TESTING KIT IN PRODUCTION ENVIORNMENT
+if you still want to test fernosa out we do have a testing kit, just link the cdn like any other css file. BUT DO NOT USE THE TESTING KIT IN PRODUCTION ENVIORNMENT
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Adityeahhh/Fernosa@main/FernosaCSS/fernosa.css">
 ```
