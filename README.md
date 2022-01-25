@@ -1,12 +1,23 @@
 # Hexasova
-an upcoming open-source css library currently under development, please dont be surprised if some things like the form look bad, im fixing them as soon as i can
+an upcoming open-source css library currently under development, please dont worry abt optimization, the classes you havent used in the project WILL NOT get added to the css file.
 
 # How to use it?
+YOU NEED NODE INSTALLED FOR THE FOLLOWING:
 
-## Download the hexasova.css file and link it like any other css file
-
-## CDN
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Adityeahhh/Hexasova@main/Hexasova/Hexasova.min.css">
+npm init -y
 ```
-or paste this link on top of your file inside the head tags
+
+then
+
+```html
+npm install gulp gulp-sass sass --save-dev
+```
+
+```html
+npm install --save-dev gulp-purgecss
+```
+
+then open the terminal and go to directory. run the command: gulp 
+
+this will start the gulp server which will convert the scss into css.
