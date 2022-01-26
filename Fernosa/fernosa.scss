@@ -26,6 +26,40 @@ $theme-colors: (
 );
 
 
+/*
+Dev: @BOLT @DoctorCo
+Github: https://github.com/Fernosa
+Licencse: MIT
+Fernosa is an open source css library with custom buttons, forms, neon effects, components and much more. A documentation will be made soon! 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+$theme-colors: (
+    "black": rgb(0,0,0),
+    "lightblack": rgb(31,27,27),
+    "light": rgb(236, 232, 232),
+    "orange": rgb(255, 94, 0),
+    "purple": #A32CC4,
+    "violet": #331c4b,
+    "orchid": #9656a3,
+    "lilac": #B65FCF,
+    "blue": #2d0061,
+    "rosegold": #aa7272,
+    "iceblue": #97bebe,
+    "deepblue": #070033,
+    "lightgrey": #e0e5ec,
+    "neonblue": #2196f3,
+    "aquagreen": #0ccd91,
+    "neonred": #FF3131,
+);
+
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
@@ -55,7 +89,224 @@ $theme-colors: (
             background-color: $color;
             border: none;
             font-weight: 500;
+
+            a {
+                color: white
+            }
+        }
+
+        a {
+            color: black;
         }
     }
 }
 
+@each $name,$color in $theme-colors {
+    .pill-button-#{$name}{
+        height: 55px;
+        min-width: 150px;
+        width: fit-content;
+        padding: 10px 20px 10px 20px;
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(51, 45, 45);
+        color: #ffffff;
+        font-size: 20px;
+        font-family: raleway;
+        font-weight: bold;
+        background-image: linear-gradient(to bottom, transparent 50%, $color 50%);
+
+    @keyframes pillbutt-#{$name} {
+            0%   {background-image: linear-gradient(to bottom, transparent 55%, $color 55%);}
+            10%  {background-image: linear-gradient(to bottom, transparent 60%, $color 60%);}
+            20%  {background-image: linear-gradient(to bottom, transparent 65%, $color 65%);}
+            30%  {background-image: linear-gradient(to bottom, transparent 70%, $color 70%);}
+            40%  {background-image: linear-gradient(to bottom, transparent 75%, $color 75%);}
+            50%  {background-image: linear-gradient(to bottom, transparent 80%, $color 80%);}
+            60%  {background-image: linear-gradient(to bottom, transparent 85%, $color 85%);}
+            70%  {background-image: linear-gradient(to bottom, transparent 90%, $color 90%);}
+            80%  {background-image: linear-gradient(to bottom, transparent 93%, $color 93%);}
+            90%  {background-image: linear-gradient(to bottom, transparent 96%, $color 96%);}
+            100%  {background-image: linear-gradient(to bottom, transparent 100%, $color 100%);}
+    }
+
+        &:hover {
+            animation-name: pillbutt-#{$name};
+            animation-duration: 750ms;
+            color: white;
+            background-image: linear-gradient(to bottom, transparent 50%,rgb(49, 44, 44) 50%);
+        }
+        a {
+            color: white;
+        }
+    }
+}
+
+
+@each $name,$color in $theme-colors {
+    .footer-#{$name} {
+        background-color: $color;
+        height: fit-content;
+        width: 100%;
+        position: absolute;
+        bottom: 0%;
+        min-height: 50vh;
+        overflow: hidden;
+    }
+
+    .footer-ul-#{$name} {
+        margin: 100px 100px 50px 0px;
+        display: flex;
+        flex-direction: column;
+        color: $color;
+        font-weight: bold;
+        font-family: montserrat;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+            padding-top: 5px;
+            margin-right: 0px;
+        }
+
+    }
+
+    .link-#{$name} {
+        color: $color;
+    }
+
+    .footer-links-#{$name} {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-right: 155px;
+    }
+
+    .ul-heading-#{$name} {
+        font-size: 24px;
+        color: $color;
+    }
+
+      
+    .footer-logo-#{$name} {
+        color: $color;
+        padding: 80px 50px;
+
+        &:hover {
+            transition: 0.5s;
+        }
+    }
+
+      
+    .bottom-text-#{$name} {
+        display: flex;
+        justify-content: center;
+        color: $color;
+
+        a {
+            padding-left: 20px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .socials-#{$name} {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+
+        i {
+            padding-left: 5px;
+            color: $color;
+            font-size: 30px;
+            &:hover {
+                transition: 0.5s;
+            }
+        }
+    }
+
+    @media (max-width: 1162px) {
+        .footer-logo-#{$name} {
+          text-align: center;
+          font-size: 26px;
+          padding-left: 30px;
+        }
+      
+        .footer-links-#{$name} {
+          flex-direction: row;
+          align-items: center;
+          padding-left: 0px;
+        }
+      
+        .footer-ul-#{$name} {
+          margin: 100px 5px 5px 5px;
+          padding-left: 20px;
+          margin-left: none;
+          margin-right: none;
+          text-align: center;
+        }
+      
+        .footer-ul-#{$name} li {
+          padding-top: 5px;
+        }
+        .bottom-text-#{$name} {
+          padding-top: 15px;
+        }
+        .ul-heading-#{$name} {
+          font-size: 20px;
+        }
+      }
+      
+      @media (max-width: 775px) {
+        .footer-logo-#{$name} {
+          font-size: 20px;
+        }
+        .ul-heading-#{$name} {
+          font-size: 16px;
+        }
+      
+        .footer-links-#{$name} {
+          width: 90%;
+          margin-top: 100px;
+        }
+      
+        .footer-ul-#{$name} {
+          margin: 5px 5px 5px 5px;
+          padding-left: 20px;
+          margin-left: none;
+          margin-right: none;
+          text-align: center;
+        }
+        .footer-ul-#{$name} li {
+          padding-top: 5px;
+        }
+        .bottom-text-#{$name} {
+          padding-top: 15px;
+        }
+      }
+      
+      @media (max-width: 678px) {
+        .footer-logo-#{$name} {
+          display: block;
+          text-align: center;
+          margin-left: 40px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+        }
+      
+        .footer-links-#{$name} {
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .footer-ul-#{$name} {
+          padding-top: 15px;
+        }
+      }
+}
+
+@each $name,$color in $theme-colors {
+    .hover-#{$name}:hover {
+        color: $color;
+    }
+}
