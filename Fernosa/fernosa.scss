@@ -28,7 +28,11 @@ $theme-colors: (
     "rosegold": rgb(170,114,114),
     "iceblue": rgb(151,190,190),
     "deepblue": rgb(7,0,51),
+    "lightblue": #1d69a7,
+    "navyblue": #231C43,
+    "silver": #eff1f3,
     "lightgrey": #e6e3e3,
+    "grey": rgb(87, 87, 87),
     "neonblue": rgb(33,150,243),
     "aquagreen": rgb(12,205,145),
     "neonred": rgb(255,49,49),
@@ -312,14 +316,197 @@ $fonts: (
       }
 }
 
+
+
+
+
+
+//nav-right
+
+@keyframes burger {
+  0%   {width: 0%;}
+  25%  {width: 25%;}
+  50%  {width: 50%;}
+  75%  {width: 75%;}
+  100% {width: 100%;}
+}
+
+.nav-divider {
+  color: rgb(87, 87, 87);
+  font-size: 20px;
+}
+
+
+#navcon-hover {
+    border: #17171C solid 2px;
+    background-color: #17171C;
+    padding: 2px 2px 2px 2px;
+    font-size: 10px;
+    position: absolute;
+    display: none;
+    top: 7%;
+    text-transform: uppercase;
+    color: white;
+}
+
+#iconOne:hover .navcon1 {
+  display: block;
+}
+#iconTwo:hover .navcon2 {
+  display: block;
+}
+#iconThree:hover .navcon3 {
+  display: block;
+}
+#iconFour:hover .navcon4 {
+  display: block;
+}
+#iconFive:hover .navcon5 {
+  display: block;
+}
+#iconSix:hover .navcon6 {
+  display: block;
+}
+#iconSeven:hover .navcon7 {
+  display: block;
+}
+#iconEight:hover .navcon8 {
+  display: block;
+}
+
+
 @each $name,$color in $theme-colors {
-    .hover-#{$name}:hover {
-        color: $color;
+  .navbar-right-#{$name} {
+    display: flex;
+    font-family: montserrat;
+    padding: 20px;
+    height: 3vh;
+    padding: 20px 70px 20px 30px;
+    background-color: $color;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+  }
+  
+  .nav-links-right-#{$name} a {
+    color: $color;
+    font-family: montserrat;
+    padding-right: 4px;
+    font-size: 15px;
+  }
+
+  
+  .logo-right-#{$name} {
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: $color;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-left: 30px;
+    font-weight: 500;
+  }
+
+  
+  .links-right-#{$name} {
+    display: flex;
+    gap: 1.2em;
+    font-size: 18px;
+  }
+
+  
+  
+  .links-right-#{$name} li {
+    padding: 5px 1px;
+  }
+  
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .logo-right-#{$name} {
+    padding-left: 10px;
+  }
+
+  .hamburger {
+    display: none;
+    user-select: none;
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  
+  @media (max-width: 850px) {
+
+    .links-right-#{$name} {
+      display: none;
+      position: absolute;
+      animation: burger 0.1s;
+      background-color: $color;
+      text-align: center;
+      padding: 16px 0;
+      right: 0;
+      left: 0;
     }
+
+    .links-right-#{$name} li + li {
+      margin-top: 8px;
+    }
+    input[type="checkbox"]:checked ~ .links-right-#{$name} {
+      display: block;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    .nav-divider {
+      display: none;
+    }
+    
+    #iconOne:hover .navcon1 {
+      display: none;
+    }
+    #iconTwo:hover .navcon2 {
+      display: none;
+    }
+    #iconThree:hover .navcon3 {
+      display: none;
+    }
+    #iconFour:hover .navcon4 {
+      display: none;
+    }
+    #iconFive:hover .navcon5 {
+      display: none;
+    }
+    #iconSix:hover .navcon6 {
+      display: none;
+    }
+    #iconSeven:hover .navcon7 {
+      display: none;
+    }
+    #iconEight:hover .navcon8 {
+      display: none;
+    }
+  }
+}
+
+.disabled a{
+  color: #e6e3e3a2;
+  &:hover {
+    color: #e6e3e3a2;
+  }
+}
+
+
+
+@each $name,$color in $theme-colors {
+  .hover-#{$name}:hover {
+      color: $color;
+  }
 }
 
 @each $name,$color in $theme-colors {
-  .text-#{$name} {
+  .color-#{$name} {
       color: $color;
   }
 }
@@ -327,6 +514,13 @@ $fonts: (
 @each $name,$color in $theme-colors {
   .bg-#{$name} {
       background-color: $color;
+  }
+}
+
+
+@each $name,$color in $theme-colors {
+  .select-#{$name}::selection {
+    background-color: $color;
   }
 }
 
@@ -342,92 +536,18 @@ $fonts: (
   }
 }
 
-@keyframes burger {
-  0%   {width: 0%;}
-  25%  {width: 25%;}
-  50%  {width: 50%;}
-  75%  {width: 75%;}
-  100% {width: 100%;}
+.pos-fixed {
+  position: fixed;
 }
 
-
-
-@each $name,$color in $theme-colors {
-  .navbar-right-#{$name} {
-    display: flex;
-    padding: 20px;
-    height: 3vh;
-    padding: 20px 30px 20px 30px;
-    background-color: $color;
-    align-items: center;
-    justify-content: space-between;
-    color: #ffffff;
-  }
-  
-  .nav-links-right-#{$name} a {
-    color: $color;
-  }
-
-  
-  .logo-right-#{$name} {
-    font-size: 32px;
-    letter-spacing: 3px;
-    color: $color;
-    font-family: inter;
-  }
-
-  
-  .links-right-#{$name} {
-    display: flex;
-    gap: 1em;
-    font-size: 18px;
-  }
-  
-  
-  .links-right-#{$name} li {
-    padding: 0px 14px;
-  }
-  
-  
-  input[type="checkbox"] {
-    display: none;
-  }
-  
-  .hamburger {
-    display: none;
-    user-select: none;
-    font-size: 24px;
-  }
-  
-  @media (max-width: 800px) {
-
-    .links-right-#{$name} {
-      display: none;
-      position: absolute;
-      animation: burger 0.1s;
-      background-color: $color;
-      text-align: center;
-      padding: 16px 0;
-      right: 0;
-      left: 0;
-    }
-
-    .links-right-#{$name} li + li {
-      margin-top: 22px;
-    }
-    input[type="checkbox"]:checked ~ .links-right-#{$name} {
-      display: block;
-    }
-
-    .hamburger {
-      display: block;
-    }
-  }
+.pos-absolute {
+  position: absolute;
 }
 
-.disabled a{
-  color: #e6e3e3a2;
-  &:hover {
-    color: #e6e3e3a2;
-  }
+.pos-relative {
+  position: relative;
+}
+
+.pos-inherit {
+  position: inherit;
 }
