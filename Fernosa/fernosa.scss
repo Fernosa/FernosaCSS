@@ -13,6 +13,214 @@
     list-style: none;
 }
 
+$vh: (
+  "0": 0vh,
+  "1": 1vh,
+  "2": 2vh,
+  "3": 3vh,
+  "4": 4vh,
+  "5": 5vh,
+  "6": 6vh,
+  "7": 7vh,
+  "8": 8vh,
+  "9": 9vh,
+  "10": 10vh,
+  "11": 11vh,
+  "12": 12vh,
+  "13": 13vh,
+  "14": 14vh,
+  "15": 15vh,
+  "16": 16vh,
+  "17": 17vh,
+  "18": 18vh,
+  "19": 19vh,
+  "20": 20vh,
+  "21": 21vh,
+  "22": 22vh,
+  "23": 23vh,
+  "24": 24vh,
+  "25": 25vh,
+  "26": 26vh,
+  "27": 27vh,
+  "28": 28vh,
+  "29": 29vh,
+  "30": 30vh,
+  "31": 31vh,
+  "32": 32vh,
+  "33": 33vh,
+  "34": 34vh,
+  "35": 35vh,
+  "36": 36vh,
+  "37": 37vh,
+  "38": 38vh,
+  "39": 39vh,
+  "40": 40vh,
+  "41": 41vh,
+  "42": 42vh,
+  "43": 43vh,
+  "44": 44vh,
+  "45": 45vh,
+  "46": 46vh,
+  "47": 47vh,
+  "48": 48vh,
+  "49": 49vh,
+  "50": 50vh,
+  "51": 51vh,
+  "52": 52vh,
+  "53": 53vh,
+  "54": 54vh,
+  "55": 55vh,
+  "56": 56vh,
+  "57": 57vh,
+  "58": 58vh,
+  "59": 59vh,
+  "60": 60vh,
+  "61": 61vh,
+  "62": 62vh,
+  "63": 63vh,
+  "64": 64vh,
+  "65": 65vh,
+  "66": 66vh,
+  "67": 67vh,
+  "68": 68vh,
+  "69": 69vh,
+  "70": 70vh,
+  "71": 71vh,
+  "72": 72vh,
+  "73": 73vh,
+  "74": 74vh,
+  "75": 75vh,
+  "76": 76vh,
+  "77": 77vh,
+  "78": 78vh,
+  "79": 79vh,
+  "80": 80vh,
+  "81": 81vh,
+  "82": 82vh,
+  "83": 83vh,
+  "84": 84vh,
+  "85": 85vh,
+  "86": 86vh,
+  "87": 87vh,
+  "88": 88vh,
+  "89": 89vh,
+  "90": 90vh,
+  "91": 91vh,
+  "92": 92vh,
+  "93": 93vh,
+  "94": 94vh,
+  "95": 95vh,
+  "96": 96vh,
+  "97": 97vh,
+  "98": 98vh,
+  "99": 99vh,
+  "100": 100vh,
+);
+
+$percentage: (
+  "0": 0%,
+  "1": 1%,
+  "2": 2%,
+  "3": 3%,
+  "4": 4%,
+  "5": 5%,
+  "6": 6%,
+  "7": 7%,
+  "8": 8%,
+  "9": 9%,
+  "10": 10%,
+  "11": 11%,
+  "12": 12%,
+  "13": 13%,
+  "14": 14%,
+  "15": 15%,
+  "16": 16%,
+  "17": 17%,
+  "18": 18%,
+  "19": 19%,
+  "20": 20%,
+  "21": 21%,
+  "22": 22%,
+  "23": 23%,
+  "24": 24%,
+  "25": 25%,
+  "26": 26%,
+  "27": 27%,
+  "28": 28%,
+  "29": 29%,
+  "30": 30%,
+  "31": 31%,
+  "32": 32%,
+  "33": 33%,
+  "34": 34%,
+  "35": 35%,
+  "36": 36%,
+  "37": 37%,
+  "38": 38%,
+  "39": 39%,
+  "40": 40%,
+  "41": 41%,
+  "42": 42%,
+  "43": 43%,
+  "44": 44%,
+  "45": 45%,
+  "46": 46%,
+  "47": 47%,
+  "48": 48%,
+  "49": 49%,
+  "50": 50%,
+  "51": 51%,
+  "52": 52%,
+  "53": 53%,
+  "54": 54%,
+  "55": 55%,
+  "56": 56%,
+  "57": 57%,
+  "58": 58%,
+  "59": 59%,
+  "60": 60%,
+  "61": 61%,
+  "62": 62%,
+  "63": 63%,
+  "64": 64%,
+  "65": 65%,
+  "66": 66%,
+  "67": 67%,
+  "68": 68%,
+  "69": 69%,
+  "70": 70%,
+  "71": 71%,
+  "72": 72%,
+  "73": 73%,
+  "74": 74%,
+  "75": 75%,
+  "76": 76%,
+  "77": 77%,
+  "78": 78%,
+  "79": 79%,
+  "80": 80%,
+  "81": 81%,
+  "82": 82%,
+  "83": 83%,
+  "84": 84%,
+  "85": 85%,
+  "86": 86%,
+  "87": 87%,
+  "88": 88%,
+  "89": 89%,
+  "90": 90%,
+  "91": 91%,
+  "92": 92%,
+  "93": 93%,
+  "94": 94%,
+  "95": 95%,
+  "96": 96%,
+  "97": 97%,
+  "98": 98%,
+  "99": 99%,
+  "100": 100%,
+);
+
 $theme-colors: (
     "transparent": transparent,
     "black": rgb(0,0,0),
@@ -51,6 +259,8 @@ $shades: (
     "900": rgba(0, 0, 0, 0.900),
     "1000": rgba(0, 0, 0, 1),
 );
+
+
 
 $weight: (
     "100": 100,
@@ -386,6 +596,11 @@ $fonts: (
     align-items: center;
     justify-content: space-between;
     color: #ffffff;
+    transition: 1s ease 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
   }
   
   .nav-links-right-#{$name} a {
@@ -499,37 +714,6 @@ $fonts: (
 
 
 
-@each $name,$color in $theme-colors {
-  .hover-#{$name}:hover {
-      color: $color;
-  }
-}
-
-@each $name,$color in $theme-colors {
-  .color-#{$name} {
-      color: $color;
-  }
-}
-
-@each $name,$color in $theme-colors {
-  .bg-#{$name} {
-      background-color: $color;
-  }
-}
-
-
-@each $name,$color in $theme-colors {
-  .select-#{$name}::selection {
-    background-color: $color;
-  }
-}
-
-@each $name,$font in $fonts {
-  .font-#{$name} {
-      font-family: $font;
-  }
-}
-
 @each $name,$boldness in $weight {
   .weight-#{$name} {
       font-weight: $boldness;
@@ -550,4 +734,109 @@ $fonts: (
 
 .pos-inherit {
   position: inherit;
+}
+
+@each $name,$color in $theme-colors {
+  .fernomail-icon-#{$name} {
+    min-width: 200px;
+    padding: 1rem;
+    border: 3px solid #e5e5e5;
+    border-radius: 2px;
+    line-height: 1.4;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .fernomail-icon-#{$name} {
+    outline: 0;
+    border-color: $color;
+  }
+  .fernomail-icon-#{$name} + .input-icon i {
+    color: $color;
+  }
+  .fernomail-icon-#{$name} + .input-icon:after {
+    border-right-color: $color;
+  }
+}
+
+.fernobutton {
+  width: fit-content;
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 19px;
+  transition: all 0.5s;
+  overflow: hidden;
+  font-family: montserrat;
+}
+
+
+
+//v0.5
+
+.alert {
+  width: 100%;
+  padding: 15px 30px 15px 30px;
+  font-family: montserrat;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+@each $name,$color in $theme-colors {
+  .hover-#{$name}:hover {
+      color: $color;
+  }
+}
+
+@each $name,$color in $theme-colors {
+  .color-#{$name} {
+      color: $color;
+  }
+}
+
+@each $name,$percent in $percentage {
+  .w#{$name} {
+      width: $percent;
+  }
+}
+
+
+@each $name,$color in $theme-colors {
+  .bg-#{$name} {
+      background-color: $color;
+  }
+}
+
+
+@each $name,$color in $theme-colors {
+  .bghover-#{$name}:hover {
+      background-color: $color;
+  }
+}
+
+@each $name,$color in $theme-colors {
+  .select-#{$name}::selection {
+    background-color: $color;
+  }
+}
+
+@each $name,$font in $fonts {
+  .font-#{$name} {
+      font-family: $font;
+  }
+}
+
+@each $name,$height in $vh {
+  .h#{$name} {
+      height: $height;
+  }
 }
