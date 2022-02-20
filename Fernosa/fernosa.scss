@@ -13,6 +13,24 @@
     list-style: none;
 }
 
+
+$theme-colors: (
+    "transparent": transparent,
+    "black": rgb(31,27,27),
+    "white": rgb(236, 232, 232),
+    "purple": rgb(163,44,196),
+    "violet": rgb(51,28,75),
+    "orchid": rgb(150,86,163),
+    "lilac": rgb(182,95,207),
+    "navyblue": #231C43,
+    "silver": #eff1f3,
+    "blue": rgb(33,150,243),
+    "green": rgb(12,205,145),
+    "red": rgb(255,49,49),
+    "orange": #FFA500,
+    "brown": #964B00,
+);
+
 $vh: (
   "0": 0vh,
   "1": 1vh,
@@ -220,46 +238,6 @@ $percentage: (
   "99": 99%,
   "100": 100%,
 );
-
-$theme-colors: (
-    "transparent": transparent,
-    "black": rgb(0,0,0),
-    "white": #fff,
-    "lightblack": rgb(31,27,27),
-    "light": rgb(236, 232, 232),
-    "orange": rgb(255, 94, 0),
-    "purple": rgb(163,44,196),
-    "violet": rgb(51,28,75),
-    "orchid": rgb(150,86,163),
-    "lilac": rgb(182,95,207),
-    "blue": rgb(45,0,97),
-    "rosegold": rgb(170,114,114),
-    "iceblue": rgb(151,190,190),
-    "deepblue": rgb(7,0,51),
-    "lightblue": #1d69a7,
-    "navyblue": #231C43,
-    "silver": #eff1f3,
-    "lightgrey": #e6e3e3,
-    "grey": rgb(87, 87, 87),
-    "neonblue": rgb(33,150,243),
-    "aquagreen": rgb(12,205,145),
-    "neonred": rgb(255,49,49),
-);
-
-$shades: (
-    "0": rgba(0, 0, 0, 0),
-    "100": rgba(0, 0, 0, 0.100),
-    "200": rgba(0, 0, 0, 0.200),
-    "300": rgba(0, 0, 0, 0.300),
-    "400": rgba(0, 0, 0, 0.400),
-    "500": rgba(0, 0, 0, 0.500),
-    "600": rgba(0, 0, 0, 0.600),
-    "700": rgba(0, 0, 0, 0.700),
-    "800": rgba(0, 0, 0, 0.800),
-    "900": rgba(0, 0, 0, 0.900),
-    "1000": rgba(0, 0, 0, 1),
-);
-
 
 
 $weight: (
@@ -840,3 +818,4 @@ $fonts: (
       height: $height;
   }
 }
+
