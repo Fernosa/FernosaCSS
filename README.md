@@ -10,6 +10,7 @@ also download the live sass compiler if you have'nt already, vscode extension: h
 
 in the scss file, simply edit the theme colors variables to suit your color theme
 ![image](https://user-images.githubusercontent.com/69644334/154828139-e66c8fc8-674d-438e-81fa-b1cab0525a72.png)
+
 like for example change the color blue to gold and it's color value to #FFD700 
 
 after you setup the color palette, click on watch sass which appears on the bottom
@@ -18,10 +19,9 @@ after you setup the color palette, click on watch sass which appears on the bott
 and you're done for now! link the css the sass compiler generates to the html and start working.
 
 # Removing the unused css
-now that you have finished working, all you need to do is head over to https://purifycss.online
-click on the html and css code tab which is right next to webpage url tab
-paste the css code from the generated css file and paste your html code, click on clean up css.
-BOOM, you have your css file ready
+now that you have finished working, all you need to do is head over to https://uncss-online.com
+paste the css code from the generated css file and paste your html code, click on uncss my styles and copy the generated code below.
+BOOM, just paste the copied code in place of the old css code and you are done!
 
 please star the repo if you think it helped you :)
 
