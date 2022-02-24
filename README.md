@@ -1,5 +1,6 @@
 # Fernosa
 [DISCORD](https://discord.gg/8v6nZH67)
+documentation: soon (currently available on discord)
 
 an upcoming open-source css library currently under development, we provide responsive components like footers, navbars, sidenav, forms, etc as well as utility classes, animated buttons, effects and a whole lot more. You just need to paste a few lines of html code and that's it! You dont need to spend hours working on components.
 
