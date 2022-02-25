@@ -1,6 +1,6 @@
 <p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/69644334/155681126-348b4471-51b6-4888-b28e-956af7dc2b46.svg" alt="Gray shape shifter" height="60"/></a></p>
-
-# Fernosa
+<h1 align="center">Fernosa</h1>
+<p align="center">Flexible CSS Framework Packed With Responsive Components And Utility</p>
 [DISCORD](https://discord.gg/8v6nZH67)
 
 documentation: soon (currently available on discord)
