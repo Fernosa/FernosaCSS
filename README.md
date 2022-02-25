@@ -13,9 +13,9 @@ ok so first of all downaload the SCSS file from: https://github.com/Adityeahhh/F
 also download the live sass compiler if you have'nt already, vscode extension: https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 
 in the scss file, simply edit the theme colors variables to suit your color theme
-![image](https://user-images.githubusercontent.com/69644334/154828139-e66c8fc8-674d-438e-81fa-b1cab0525a72.png)
+![image](https://i.imgur.com/lj3U0Xc.png)
 
-like for example change the color blue to gold and it's color value to #FFD700 
+like for example change the color blue to gold and it's color value to ` #FFD700 `
 
 after you setup the color palette, click on watch sass which appears on the bottom
 ![image](https://user-images.githubusercontent.com/69644334/154828106-453da218-27e1-4f4a-9b74-459a9c7ddb34.png)
