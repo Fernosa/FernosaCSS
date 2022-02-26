@@ -341,6 +341,18 @@ $fonts: (
     }
 }
 
+.button-outline {
+    min-height: 55px;
+    min-width: 150px;
+    color: black;
+    background-color: transparent;
+    border: 3px solid;
+    font-size: 19px;
+    width: fit-content;
+    transition: 0.3s ease;
+    cursor: pointer;
+    padding: 15px 30px 15px 30px;
+}
 
 @each $name,$color in $theme-colors {
     .footer-#{$name} {
@@ -816,6 +828,18 @@ $fonts: (
 @each $name,$height in $vh {
   .h#{$name} {
       height: $height;
+  }
+}
+
+@each $name,$color in $theme-colors {
+  .border-#{$name} {
+      border-color: $color;
+  }
+}
+
+@each $name,$color in $theme-colors {
+  .hover-#{$name}:hover {
+      color: $color;
   }
 }
 
