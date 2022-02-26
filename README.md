@@ -2,14 +2,14 @@
 <h1 align="center">Fernosa</h1>
 <p align="center">Flexible CSS Framework Packed With Responsive Components And Utility</p>
 <p align="center">Join Our Discord For Help: https://discord.gg/8v6nZH67</p>
+<p align="center">Documentation: Soon (Surrently Available On Discord)</p>
 
-documentation: soon (currently available on discord)
 
 
 ## 👀 Why Fernosa?
-Fernosa is an open-source css library under development. It is customizable to the brink, you can change the colors according to your color palette and based on that the components will be generated, also make the best out of the utility classes we provide to change the components to what you find suitable. Speaking of components, Fernosa comes packed with beautiful and completely responsive components that can be used in your commercial and personal projects, Footers, navbars, sidenav, you name it! Fernosa also gives you the freedom to use a lot css effects that we provide like neon, hover, etc. If you want to speed up your work without wasting hours customizing components, Fernosa is for you.
+Fernosa is an open-source css library under development. It is customizable to the brink, you can change the colors according to your color palette and based on that the components will be generated, also make the best out of the utility classes we provide to change the components to what you find suitable. Speaking of components, Fernosa comes packed with beautiful and completely responsive components that can be used in your commercial and personal. Fernosa also gives you the freedom to use a lot css effects that we provide like neon, hover effects, etc. If you want to speed up your work without wasting hours customizing components, Fernosa is for you.
 
-## How so how do i use it?
+## Fernosa Is Awesome But How Do I Use It?
 
 first of all downaload the SCSS file from: https://github.com/Adityeahhh/Fernosa/blob/main/Fernosa/fernosa.scss
 also download the live sass compiler if you have'nt already, vscode extension: https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
