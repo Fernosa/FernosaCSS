@@ -9,7 +9,7 @@
 <h1 align="center">Fernosa</h1>
 
 <p align="center">Flexible CSS Framework Packed With Responsive Components And Utility</p>
-<p align="center">Join Our Discord For Help: https://discord.gg/8v6nZH67</p>
+<p align="center">Join Our Discord For Help: https://discord.gg/9VgwJetEvG</p>
 <p align="center">Documentation: Soon (Surrently Available On Discord)</p>
 
 <br><br>
