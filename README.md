@@ -2,7 +2,7 @@
 <h1 align="center">Fernosa</h1>
 <p align="center">Flexible CSS Framework Packed With Responsive Components And Utility</p>
 <p align="center">Join Our Discord For Help: https://discord.gg/8v6nZH67</p>
-[![MIT License](https://img.shields.io/apm/l/vim-mode?color=%2339c934&label=License&style=flat-square)](https://github.com/Fernosa/FernosaCSS/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=plastic)](https://github.com/Fernosa/FernosaCSS/blob/main/LICENSE)
 
 documentation: soon (currently available on discord)
 
