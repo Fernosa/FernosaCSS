@@ -2,7 +2,6 @@
 <h1 align="center">Fernosa</h1>
 <p align="center">Flexible CSS Framework Packed With Responsive Components And Utility</p>
 <p align="center">Join Our Discord For Help: https://discord.gg/8v6nZH67</p>
-![image](https://img.shields.io/apm/l/atomic-design-ui.svg?style=plastic)
 
 documentation: soon (currently available on discord)
 
