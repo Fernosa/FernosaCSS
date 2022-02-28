@@ -13,7 +13,6 @@
     list-style: none;
 }
 
-
 $theme-colors: (
     "transparent": transparent,
     "black": rgb(31,27,27),
@@ -22,13 +21,10 @@ $theme-colors: (
     "violet": rgb(51,28,75),
     "orchid": rgb(150,86,163),
     "lilac": rgb(182,95,207),
-    "navyblue": #231C43,
     "silver": #eff1f3,
     "blue": rgb(33,150,243),
     "green": rgb(12,205,145),
     "red": rgb(255,49,49),
-    "orange": #FFA500,
-    "brown": #964B00,
 );
 
 $vh: (
@@ -238,6 +234,7 @@ $percentage: (
   "99": 99%,
   "100": 100%,
 );
+
 
 
 $weight: (
@@ -518,9 +515,6 @@ $fonts: (
 
 
 
-
-
-
 //nav-right
 
 @keyframes burger {
@@ -726,31 +720,6 @@ $fonts: (
   position: inherit;
 }
 
-@each $name,$color in $theme-colors {
-  .fernomail-icon-#{$name} {
-    min-width: 200px;
-    padding: 1rem;
-    border: 3px solid #e5e5e5;
-    border-radius: 2px;
-    line-height: 1.4;
-    -webkit-transition: 0.4s ease-in-out;
-    -moz-transition: 0.4s ease-in-out;
-    -o-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-
-  .fernomail-icon-#{$name} {
-    outline: 0;
-    border-color: $color;
-  }
-  .fernomail-icon-#{$name} + .input-icon i {
-    color: $color;
-  }
-  .fernomail-icon-#{$name} + .input-icon:after {
-    border-right-color: $color;
-  }
-}
 
 .fernobutton {
   width: fit-content;
@@ -761,31 +730,134 @@ $fonts: (
   transition: all 0.5s;
   overflow: hidden;
   font-family: montserrat;
+  cursor: pointer;
 }
 
 
+.sidenav {
+  position: fixed;
+  z-index: 100000000;
+  width: 5rem;
+  overflow-x: hidden;
+  transition: 1s;
+  font-family: raleway;
+  transition: all 1s;
+  z-index: 69420;
 
-//v0.5
+  .sidenav-head {
+    display: inline;
+    overflow: hidden;
+    white-space: nowrap;
 
-.alert {
-  width: 100%;
-  padding: 15px 30px 15px 30px;
-  font-family: montserrat;
-  border-radius: 5px;
+    .sidenav-heading {
+      margin-top: -30px;
+      padding-left: 5rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .sidenav-division {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .sidenav-links { 
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+
+    .sidenav-link{
+      transition: 1s;
+      display: inline-flex;
+      padding-top: 40px;
+      white-space: nowrap;
+    }
+
+
+    .sidenav-anchor {
+      padding-left: 40px;
+      padding-top: 10px;
+      overflow: hidden;
+
+      &:hover {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .sidenav-socials {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+  }
+
+
+  .sidenav-icon, .fa-id-card {
+    font-size: 2.4rem;
+    padding-left: 1rem;
+    z-index: 80085;
+  }
+
+  .sidenav-divider {
+    font-weight: 100;
+  }
+
+  #sidenav-burger {
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    padding-top: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+.sidenav::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidenav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidenav::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 5px solid transparent;
+    background-color: white;
+}
+
+.close-sidenav {
+  position: absolute;
+  margin-top: 80vh; 
+  margin-left: 80%; 
+  margin-right: 10%;
+  z-index: 100000000; 
+  border: none;
+  outline: none;
+  cursor: pointer; 
+  padding: 20px;
+  min-width: 70px;
+  border-radius: 50%;
+  font-size: 28px;
+  cursor: pointer;
   transition: all 0.5s;
 }
 
-.flex {
-  display: flex;
+.unhidden {
+  display: block;
+}
+
+.sidenav-expand {
+    width: 30rem;
+    width: fit-content;
+    padding: 0 2rem 0 2rem;
+    transition: all 0.5s;
 }
 
 
-
-@each $name,$color in $theme-colors {
-  .hover-#{$name}:hover {
-      color: $color;
-  }
-}
 
 @each $name,$color in $theme-colors {
   .color-#{$name} {
@@ -799,47 +871,45 @@ $fonts: (
   }
 }
 
+@each $name,$percent in $percentage {
+  .border-rad-#{$name} {
+      border-radius: $percent;
+  }
+}
 
 @each $name,$color in $theme-colors {
   .bg-#{$name} {
       background-color: $color;
   }
 }
-
-
-@each $name,$color in $theme-colors {
-  .bghover-#{$name}:hover {
-      background-color: $color;
-  }
-}
-
-@each $name,$color in $theme-colors {
-  .select-#{$name}::selection {
-    background-color: $color;
-  }
-}
-
-@each $name,$font in $fonts {
-  .font-#{$name} {
-      font-family: $font;
-  }
-}
-
-@each $name,$height in $vh {
-  .h#{$name} {
-      height: $height;
-  }
-}
-
 @each $name,$color in $theme-colors {
   .border-#{$name} {
       border-color: $color;
   }
 }
-
+@each $name,$color in $theme-colors {
+  .bghover-#{$name}:hover {
+      background-color: $color;
+  }
+}
 @each $name,$color in $theme-colors {
   .hover-#{$name}:hover {
       color: $color;
+  }
+}
+@each $name,$color in $theme-colors {
+  .select-#{$name}::selection {
+    background-color: $color;
+  }
+}
+@each $name,$font in $fonts {
+  .font-#{$name} {
+      font-family: $font;
+  }
+}
+@each $name,$height in $vh {
+  .h#{$name} {
+      height: $height;
   }
 }
 
