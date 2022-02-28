@@ -37,7 +37,7 @@ You can use Fernosa by linking the following stylesheet in your html `<head>` ta
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/Adityeahhh/Fernosa@main/FernosaCSS/fernosa.css"
+  href="https://cdn.jsdelivr.net/gh/Fernosa/FernosaCSS@main/FernosaCSS/fernosa.css"
 />
 ```
 
@@ -49,7 +49,7 @@ You can use Fernosa by linking the following stylesheet in your html `<head>` ta
 
 1.  Download the Visual studio code extension: [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 
-2.  Download the SCSS file: [Here](https://github.com/Adityeahhh/Fernosa/blob/main/Fernosa/fernosa.scss)
+2.  Download the SCSS file: [Here](https://github.com/Fernosa/FernosaCSS/blob/main/Fernosa/fernosa.scss)
 
 3.  In the scss file, simply edit the theme colors variables to suit your color theme
 <br>
