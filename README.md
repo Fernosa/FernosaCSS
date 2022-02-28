@@ -70,19 +70,25 @@ Once you setup the color palette, click on watch sass which appears on the botto
 
 <br>
 <br>
-# Final step
+Final step
 <font size="3">
 Link the compiled css the sass compiler generates, to the html!
 <br>
+  
 ```html
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 ```
+  
 Link this fontawesome CDN inside the head 
+  
 <br>
+  
 Also link the javascript CDN 
+  
 ```html
     <script src="https://cdn.jsdelivr.net/gh/Fernosa/FernosaCSS@main/scripts/fernosa.js"></script>
 ```
+  
 That's it!
 <br>
 Wollah! It will start working, Happy Hacking!
