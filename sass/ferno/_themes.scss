@@ -1,0 +1,60 @@
+$theme-colors: (
+  black: #2B2843,
+  white: #dfdede,
+  red: #dc2626,
+  orange: #ea580c,
+  amber: #d97706,
+  yellow: #ca8a04,
+  lime: #65a30d,
+  green: #16a34a,
+  gray: #4b5563,
+  emerald: #059669,
+  teal: #0d9488,
+  cyan: #0891b2,
+  sky: #0284c7,
+  blue: #2563eb,
+  indigo: #6f00ff,
+  voilet: #7c3aed,
+  purple: #9333ea,
+  fuchsia: #c026d3,
+  pink: #db2777,
+  rose: #e11d48,
+  skyblue: #00b2ff,
+);
+
+@function palette($color) {
+  @return map-get($theme-colors, $color);
+}
+
+$primary: palette(indigo);
+
+$prim: darken($primary, 2);
+$prim2: darken($primary, 20);
+$prim3: darken($primary, 26);
+
+$lprim: lighten($primary, 8);
+$lprim2: lighten($primary, 12);
+$lprim3: lighten($primary, 16);
+
+.bg-primary {
+  background-color: $primary;
+}
+
+@each $nm, $vl in $theme-colors {
+  .bg-#{$nm} {
+    background-color: $vl;
+
+    &.bg-#{$nm}-light {
+      background-color: lighten($vl, 10);
+    }
+  }
+  .hover\:bg-#{$nm}-dark:hover {
+    background-color: darken($vl, 20);
+  }
+  .text-#{$nm} {
+    color: $vl;
+  }
+  .border-#{$nm} {
+    border-color: $vl;
+  }
+}

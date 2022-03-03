@@ -1,0 +1,150 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@import "ferno/font";
+@import "ferno/themes";
+@import "ferno/spacing";
+@import "ferno/util";
+@import "ferno/cursors";
+@import "ferno/visibility";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #dfdede;
+  padding: 0;
+  margin: 0;
+  -user-drag: false;
+  overflow: hidden;
+}
+
+.bg-dark {
+  background-color: #14111b;
+  color: map-get($theme-colors, white);
+  @include phone-only {
+    background: url(/bg.svg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+.bg-light {
+  background-color: #F3EEFF;
+  color: map-get($theme-colors, black);
+  @include phone-only {
+    background: url(/bg-light.svg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+
+
+// components
+
+nav.topnav {
+  background-color: #1e192c;
+  height: 3.25rem;
+  backdrop-filter: blur(4px);
+  width: 100vw;
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  -user-drag: false;
+  user-select: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
+  > div {
+    justify-content: space-between;
+    width: 86%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  logo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    font-variant: normal;
+    display: flex;
+    align-items: center;
+    color: palette(white);
+    font-weight: 600;
+
+    img {
+      height: 2rem;
+      padding: 0 0.5rem;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    a {
+      padding: 0 0.625rem;
+      color: #dfdede;
+      font-weight: 500;
+      font-size: 1rem;
+      text-decoration: none;
+      font-family: "Inter", sans-serif;
+      text-transform: capitalize;
+
+      &:hover {
+        color: #6f00ff;
+      }
+    }
+  }
+}
+
+::selection {
+  background: #6f00ff;
+  color: #dedfe6;
+}
+
+.button {
+  background-color: #6f00ff;
+
+  &:hover {
+    color: #dfdede;
+  }
+}
+
+.h {
+  margin: 0 1.25rem;
+}
+
+.icon {
+  height: 1.125rem;
+  //
+}
+
+.icon > a {
+  padding: 0 0.625rem;
+}
+
+p {
+  width: 40%;
+}
+
+.bg-dark .kg {
+  color: #ffffffbf;
+}
+
+.bg-light .kg {
+  color: #000000bf;
+}

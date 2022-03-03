@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Montserrat:wght@100;200;300;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap);
+
+$inter: 'Inter',sans-serif;
+$roboto: 'Roboto', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+$fonts: (
+  inter: $inter,
+  raleway: $raleway,
+  roboto: $roboto,
+  montserrat: $montserrat,
+  quicksand: $quicksand,
+  poppins: $poppins,
+);
+
+@each $name, $font in $fonts {
+  .font-#{$name} {
+    font-family: $font;
+  }
+}
+
+$font-sizes: (
+  xs: 0.75rem,
+  sm: 0.875rem,
+  base: 1rem,
+  lg: 1.125rem,
+  xl: 1.25rem,
+  2xl: 1.5rem,
+  3xl: 1.875rem,
+  4xl: 2.25rem,
+  5xl: 3rem,
+  6xl: 4rem,
+  heading: 2rem
+);
+
+@each $name, $size in $font-sizes {
+  .text-#{$name} {
+    font-size: $size;
+  }
+
+  .h-#{$name} {
+    height: $size;
+  }
+}
+
+$font-utils: (
+  norm: normal,
+  italic: italic,
+  capital: capitalize,
+  upper: uppercase,
+  lower: lowercase,
+);
+
+@each $name, $case in $font-utils {
+  .case-#{$name} {
+    text-transform: $case;
+  }
+
+}
+
+$font-weights: (
+  font-thin: 100,
+  font-extralight: 200,
+  font-light: 300,
+  font-regular: 400,
+  font-medium: 500,
+  font-semibold: 600,
+  font-bold: 700,
+  font-extrabold: 800,
+  font-black: 900,
+);
+
+@each $name, $wght in $font-weights {
+  .#{$name} {
+    font-weight: $wght;
+  }
+}
+
+$letter-spacing: (
+  tracking--10: -0.05em,
+  tracking--5: -0.025em,
+  tracking-norm: 0,
+  tracking-5: 0.025em,
+  tracking-10: 0.05em,
+  tracking-20: 0.1em,
+);
+
+@each $name, $spacing in $letter-spacing {
+  .#{$name} {
+    letter-spacing: $spacing;
+  }
+}
+
+$leading: (
+  3: 0.75rem,
+  4: 1rem,
+  5: 1.25rem,
+  6: 1.5rem,
+  7: 1.75rem,
+  8: 2rem,
+  9: 2.25rem,
+  10: 2.5rem,
+  null: 1,
+  dense: 1.25,
+  cozy: 1.375,
+  norm: 1.5,
+  ease: 1.625,
+  lax: 2,
+);
+
+@each $name, $lead in $leading {
+  .lead-#{$name} {
+    line-height: $lead;
+  }
+
+}
+
+$align: (
+  right: right,
+  left: left,
+  center: center,
+  justify: justify,
+);
+
+@each $name, $align in $align {
+  .text-#{$name} {
+    text-align: $align;
+  }
+}
+
+$deco: (
+  underline: underline,
+  overline: overline,
+  strikthru: line-through,
+  deco-none: none,
+);
+
+@each $nm, $val in $deco {
+  .#{$nm} {
+    text-decoration-line: $val;
+  }
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sub-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+@mixin inter {
+  font-size: map-get($fonts, inter);
+}
+
+.items-center {
+  padding-top: 0.25rem;
+  display: flex;
+  align-items: center;
+}
