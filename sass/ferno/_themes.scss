@@ -48,10 +48,10 @@ $lprim3: lighten($primary, 16);
       background-color: lighten($vl, 10);
     }
   }
-  .hover\:bg-#{$nm}-dark:hover {
-    background-color: darken($vl, 20);
-  }
   .text-#{$nm} {
+    color: $vl;
+  }
+  .hover-#{$nm}:hover {
     color: $vl;
   }
   .border-#{$nm} {
