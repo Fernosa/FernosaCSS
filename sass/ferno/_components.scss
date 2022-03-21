@@ -1,0 +1,190 @@
+//nav-right
+
+@keyframes burger {
+    0%   {width: 0%;}
+    25%  {width: 25%;}
+    50%  {width: 50%;}
+    75%  {width: 75%;}
+    100% {width: 100%;}
+  }
+  
+  .nav-divider {
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    user-select: none;
+  }
+  
+  
+  #navcon-hover {
+      border: #17171C solid 2px;
+      background-color: #17171C;
+      padding: 2px 2px 2px 2px;
+      font-size: 10px;
+      position: absolute;
+      display: none;
+      top: 7%;
+      text-transform: uppercase;
+      color: white;
+  }
+  
+  #iconOne:hover .navcon1 {
+    display: block;
+  }
+  #iconTwo:hover .navcon2 {
+    display: block;
+  }
+  #iconThree:hover .navcon3 {
+    display: block;
+  }
+  #iconFour:hover .navcon4 {
+    display: block;
+  }
+  #iconFive:hover .navcon5 {
+    display: block;
+  }
+  #iconSix:hover .navcon6 {
+    display: block;
+  }
+  #iconSeven:hover .navcon7 {
+    display: block;
+  }
+  #iconEight:hover .navcon8 {
+    display: block;
+  }
+  
+  
+  .navbar-right {
+      display: flex;
+      font-family: montserrat;
+      padding: 20px;
+      height: 3vh;
+      padding: 20px 70px 20px 30px;
+      align-items: center;
+      justify-content: space-between;
+      color: #ffffff;
+      transition: 1s ease 0s;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease;
+      transition-delay: 0.2s;
+  }
+    
+  .nav-links-right a {
+      font-family: montserrat;
+      padding-right: 4px;
+      font-size: 15px;
+  }
+  
+    
+  .logo-right {
+      font-size: 32px;
+      letter-spacing: 3px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      padding-left: 30px;
+      font-weight: 500;
+  }
+  
+    
+  .links-right {
+      display: flex;
+      gap: 1.2em;
+      font-size: 18px;
+  }
+  
+    
+    
+  .links-right li {
+      padding: 5px 1px;
+  }
+    
+    
+  input[type="checkbox"] {
+      display: none;
+  }
+    
+  .logo-right {
+      padding-left: 10px;
+  }
+  
+  .hamburger {
+      display: none;
+      user-select: none;
+      font-size: 24px;
+      padding-left: 10px;
+  }
+    
+  @media (max-width: 850px) {
+  
+  .links-right {
+        display: none;
+        position: absolute;
+        animation: burger 0.1s;
+  
+        text-align: center;
+        padding: 16px 0;
+        right: 0;
+        left: 0;
+  }
+  
+  .links-right li + li {
+        margin-top: 8px;
+  }
+  input[type="checkbox"]:checked ~ .links-right {
+        display: block;
+  }
+  
+  .hamburger {
+        display: block;
+  }
+  
+  .nav-divider {
+        display: none;
+  }
+      
+  #iconOne:hover .navcon1 {
+        display: none;
+  }
+  #iconTwo:hover .navcon2 {
+        display: none;
+  }
+  #iconThree:hover .navcon3 {
+        display: none;
+  }
+  #iconFour:hover .navcon4 {
+        display: none;
+  }
+  #iconFive:hover .navcon5 {
+        display: none;
+  }
+  #iconSix:hover .navcon6 {
+        display: none;
+  }
+  #iconSeven:hover .navcon7 {
+        display: none;
+  }
+  #iconEight:hover .navcon8 {
+        display: none;
+  }
+  }
+  .disabled a{
+    color: #e6e3e3a2;
+    &:hover {
+      color: #e6e3e3a2;
+    }
+  }
+
+
+
+.fernobutton {
+      width: fit-content;
+      padding: 15px 30px 15px 30px;
+      border-radius: 5px;
+      border-color: transparent;
+      font-size: 19px;
+      transition: all 0.5s;
+      overflow: hidden;
+      font-family: montserrat;
+      cursor: pointer;
+      user-select: none;
+}

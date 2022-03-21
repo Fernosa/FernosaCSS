@@ -1,0 +1,27 @@
+$cursors: (
+  auto: auto,
+  norm: default,
+  pointer: pointer,
+  wait: wait,
+  text: text,
+  move: move,
+  help: help,
+  forbidden: not-allowed,
+  none: none,
+  ctx-menu: context-menu,
+  progress: progress,
+  no-drop: no-drop,
+  grab: grab,
+  grabbing: grabbing,
+  col-resize: col-resize,
+  row-resize: row-resize,
+  all-scroll: all-scroll,
+  zoom-in: zoom-in,
+  zoom-out: zoom-out,
+);
+
+@each $nm, $val in $cursors {
+  .cursor-#{$nm} {
+    cursor: $val;
+  }
+}
