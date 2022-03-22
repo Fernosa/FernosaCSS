@@ -6,6 +6,8 @@
  * Documentation: Soon
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
 
 html,
 body {
@@ -33,9 +35,16 @@ a {
   margin: 0;
   text-decoration: none;
   list-style: none;
-  overflow-x: hidden;
 
+  &::selection {
+    background-color: #6f00ff;
+  }
 }
+
+span::selection {
+  background-color: #000000;
+}
+
 
 body {
   color: #dfdede;
@@ -52,6 +61,9 @@ body {
   color: map-get($theme-colors, white);
   background: url(../assets/bg.svg) center fixed;
   background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 
@@ -166,25 +178,6 @@ body {
 @media (max-width: 400px){
   .hero {
     .hero-text {
-      margin-left: 0%;
-      h2 {
-        font-size: 34px;
-        line-height: 3.0rem;
-        text-align: center
-      }
-      h4 {
-        margin-top: 20px;
-        font-weight: 400;
-        text-align: center;
-      }
-      p {
-        font-size: 20px;
-        line-height: 2rem;
-        text-align: center;
-        margin-top: 20px;
-        margin-right: 20%;
-        margin-left: 20%;
-      }
       
       .buttons {
         padding-top: 30px;
@@ -198,30 +191,102 @@ body {
   }
 }
 
-
-/* Works on Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #6f00ff #14111B;
+@media (max-width: 400px){
+  .hero {
+    .hero-text {
+      margin-left: 0%;
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 15px;
+      }
+      
+      .buttons {
+        padding-top: 30px;
+        display: flex;
+        
+        justify-content: center;
+        .down {
+          margin-left: 2%;
+        }
+      }
+    }
+  }
 }
 
-/* Works on Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 14px;
-  z-index: 100;
+
+
+
+
+
+
+
+
+//about
+.about {
+  margin-top: 20vh;
+  height: 100vh;
+  width: 100%;
+  min-height:100%;
+  width:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .abouttext {
+    margin-left: 8%;
+    overflow: hidden;
+    h1 {
+      font-size: 4rem;
+      font-family: dongle;
+    }
+    .p1 {
+      padding-top: -40px;
+      line-height: 1.4rem;
+      margin-right:25%;
+    }
+    .p2 {
+      padding-top: 25px;
+      line-height: 1.5rem;
+    }
+    p {
+      font-family: quicksand;
+      font-weight: 700;
+      font-size: 16px;
+      resize: none;
+    }
+    button {
+      margin-top: 20px;
+    }
+    .resimg {
+      width: 30%;
+    }
+  }
 }
 
-*::-webkit-scrollbar-track {
-  background: #14111B;
-}
 
-*::-webkit-scrollbar-thumb {
-  background-color: #fff;
-  border-radius: 20px;
-  border: 5px solid #14111B;
-}
+@media (max-width: 1300px) {
+  .about {
+    padding-top: -40px;
+    flex-direction: column;
+    text-align: center;
+    .abouttext {
+      margin-left: 0%;
 
-*::-webkit-scrollbar-thumb:hover {
-  background-color: #6f00ff;
-  border: 5px solid #14111B;
+      .p1 {
+        margin-right:0%;
+      }
+    }
+
+    img {
+      display: none;
+    }
+  }
 }
