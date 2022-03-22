@@ -13,35 +13,34 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="1200" />
     <meta name="theme-color" content="#6f00ff" />
-
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body class="bg-black bg-dark">
   <!-- FERNOSA NAVBAR -->
-        <nav class="navbar-right bg-lightblack" id = 'nav'>
-          <div class="logo-right text-white cursor-norm select-lightblack">Fernosa</div>
-      
-          <ul class="nav-links-right">
-      
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-      
-            <div class="links-right bg-lightblack">
-              <li class="disabled cursor-norm"><a>HOME</a></li>
-              <li><a href="#" class="select-purple hover-indigo">ICONS</a></li>
-              <li><a href="#" class="select-purple hover-indigo">TEMPLATES</a></li>
-              <li><a href="#" class="select-purple hover-indigo">DOCS</a></li>
-              <li class="nav-divider">|</li>
-              <li><a id="iconTwo" href="https://github.com/Fernosa/FernosaCSS" ><i class="fab fa-github text-silver hover-white"></i><span id="navcon-hover" class="navcon2">Github</span></a></li>
-              <li><a id="iconThree" href="https://discord.gg/SqnEhE686W" target="blank"><i class="fab fa-discord text-blue hover-indigo"></i><span id="navcon-hover" class="navcon3">Discord</span></a></li>
-            </div>
-          </ul>
-      </nav>
-
     <section class="landing">
+      <nav class="navbar-right bg-lightblack" id = 'nav'>
+        <div class="logo-right text-white cursor-norm select-lightblack">Fernosa</div>
+    
+        <ul class="nav-links-right">
+    
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    
+          <div class="links-right bg-lightblack">
+            <li class="disabled cursor-norm"><a>HOME</a></li>
+            <li><a href="#" class="select-purple hover-indigo">ICONS</a></li>
+            <li><a href="#" class="select-purple hover-indigo">TEMPLATES</a></li>
+            <li><a href="#" class="select-purple hover-indigo">DOCS</a></li>
+            <li class="nav-divider">|</li>
+            <li><a id="iconOne" href="https://github.com/Fernosa/FernosaCSS" ><i class="fab fa-github text-silver hover-white"></i><span id="navcon-hover" class="navcon1">Github</span></a></li>
+            <li><a id="iconThree" href="https://discord.gg/SqnEhE686W" target="blank"><i class="fab fa-discord text-blue hover-indigo"></i><span id="navcon-hover" class="navcon3">Discord</span></a></li>
+          </div>
+        </ul>
+    </nav>
       <!-- Hero Text -->
       <div class="hero">
         <div class="hero-text">
@@ -58,7 +57,37 @@
           </div>
         </div>
       </div>
+
+      
+      <section class="about bg-black">
+        <div class="abouttext">
+          <h1>WHAT IS FERNOSA?</h1>
+          <div class="p1">
+            <p>Fernosa is an open-source CSS library. It is </p>
+            <p>customizable to the brink, allowing you to change the</p>
+            <p>colours according to your colour theme, and the</p>
+            <p>components will be generated accordingly.</p>
+          </div>
+          <div class="p2">
+            <p>You can also use the utility classes we provide to</p>
+            <p>change the components to what you find suitable.It</p>
+            <p>comes packed with beautiful and completely</p>
+            <p>responsive components as well as cool effects you can use in any project.</p>
+          </div>
+          <button class="fernobutton bg-purple bghover-voilet down"><a class = "text-white">Showcase</a></button>
+        </div>
+        <img src="./assets/resvg.svg" class="resimg" data-aos="fade-left" alt="">
+      </section>
     </section>
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+      offset: 400, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 1000 // values from 0 to 3000, with step 50ms
+    });
+    </script>
 </body>
 </html>
