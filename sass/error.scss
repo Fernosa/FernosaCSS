@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Orbitron:wght@400;500;600;700;800&display=swap');
+
+*{
+    list-style: none;
+    color: #D3C5E5;
+
+    &::selection {
+        color: #140021;
+        background-color: #6C63FF;
+    }
+}
+
+body {
+  background: url(../assets/pixel.svg) center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+      cursor: text;
+      font-family: orbitron;
+      font-weight: 500;
+      font-size: 15rem;
+      color: #6C63FF;
+      margin-left: 50%;
+  }
+
+  .p {
+      font-family: dongle;
+      font-size: 2rem;
+      margin-top: -200px;
+      color: #D3C5E5;
+  }
+
+  .link {
+    margin-top: -2%;
+    color: #D3C5E5;
+
+    a {
+        &:hover {
+            color: #6C63FF;
+        }
+    }
+  }
+}
+
+
+@media (max-width: 1121px) {
+    body {
+
+        h1 {
+            font-size: 12rem;
+            margin-left: 47%;
+            margin-right: 20px;
+        }
+
+        .p {
+            margin-top: -120px;
+        }
+
+        .link {
+            margin-top: -5px;
+        }
+    }
+}
+
+@media (max-width: 940px) {
+    body {
+
+        h1 {
+            font-size: 10rem;
+        }
+
+        .p {
+            margin-top: -120px;
+            font-size: 1.5rem;
+        }
+
+        .link {
+            margin-top: -5px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        background: url(../assets/pixelbottom.svg) center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
+        h1 {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: -270px;
+        }
+
+        .link {
+            margin-top: -15px;
+        }
+    }
+}
