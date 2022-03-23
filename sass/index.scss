@@ -324,3 +324,176 @@ body {
     }
   }
 }
+@media (max-width: 400px) {
+  .about {
+    .abouttext {
+      h1 {
+        font-size: 3.2rem;
+
+      }
+    }
+  }
+}
+
+
+
+
+// features
+.features {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+  .rowdiv {
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 8rem;
+    font-family: dongle;
+  }
+  .featuresdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .feature-list2 {
+    margin-top: 50px;
+  }
+
+  .feature-list, .feature-list2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    .feature {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 30%;
+      height: 30vh;
+      flex-basis: 30%;
+      margin-right: 25px;
+      
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+        font-family: quicksand;
+        cursor: default;
+      }
+
+      p {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 15px;
+        font-family: quicksand;
+        font-weight: 500;
+        cursor: default;
+      }
+
+      button {
+        margin-top: 10px;
+        padding: 7px 15px 7px 15px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 900px) {
+  .features {
+    height: 205vh;
+    .rowdiv {
+      margin-top: 20px;
+    }
+  
+    .feature-list, .feature-list2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+  
+      .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 25vh;
+        flex-basis: 60%;
+        margin-top: 20px;
+        margin-right: 0px;
+        
+        h1 {
+          font-size: 2rem;
+          text-align: center;
+          font-family: quicksand;
+          cursor: default;
+        }
+  
+        p {
+          margin-left: 10%;
+          margin-right: 10%;
+          margin-top: 15px;
+          font-family: quicksand;
+          font-weight: 500;
+          cursor: default;
+        }
+  
+        button {
+          margin-top: 10px;
+          margin-bottom: 5px;
+          padding: 7px 10px 7px 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 565px) {
+  .features {
+    height: 205vh;
+    h1 {
+      font-size: 5rem;
+    }
+    .rowdiv {
+      margin-top: 20px;
+    }
+  
+    .feature-list, .feature-list2 {
+  
+  
+      .feature {
+        width: 80%;
+        flex-basis: 80%;
+        
+        h1 {
+          font-size: 1.5rem;
+          text-align: center;
+          font-family: quicksand;
+          cursor: default;
+        }
+  
+        p {
+          margin-left: 10%;
+          margin-right: 10%;
+          margin-top: 13px;
+          font-family: quicksand;
+          font-weight: 300;
+          cursor: default;
+        }
+  
+        button {
+          margin-top: 10px;
+          margin-bottom: 5px;
+          padding: 5px 10px 5px 10px;
+        }
+      }
+    }
+  }
+}
