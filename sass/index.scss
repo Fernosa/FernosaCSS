@@ -580,13 +580,191 @@ body {
 @media (max-width: 536px) {
   .ico {
     .icodiv {
-      height: 70vh;
+      height: 55vh;
       width: 80%;
       p {
         font-size: 15px;
         margin-left: 10%;
         margin-right: 10%;
       }
+      h1 {
+        font-size: 1.6rem;
+      }
+      .butts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .lower {
+          margin-left: 0;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+// HOW TO USE IT
+
+.docum {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+
+  h1 {
+    font-size: 8rem;
+    font-family: dongle;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-family: quicksand;
+    color: grey;
+    margin-top: -50px;
+    font-weight: 700;
+  }
+
+  .cdncss {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    .cdnbox {
+      display: flex;
+      align-items: center;
+      padding: 20px 5px 20px 5px;
+      width: 90%;
+      justify-content: center;
+      border-radius: 5px;
+      height: 5vh;
+      margin-top: 30px;
+      font-family: raleway;
+      border: #00b2ff solid 2px;
+
+      h4 {
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+
+    .cdnjs {
+      margin-top: 50px;
+
+      .boxjs {
+        border: #FFC700 solid 2px;
+      }
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .cdnbox {
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 430px) {
+  .docum {
+    h1  {
+      font-size: 6rem;
+    }
+
+    .cdncss {
+      h2 {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+//index
+
+.index {
+  height: 150vh;
+  margin-top: 500px;
+  width: 100%;
+  background-color: #6f00ff;
+  img {
+    margin-top: -550px;
+  }
+
+  .indexed {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    .box1 {
+      width: 80%;
+      min-width: 300px;
+      height: 50vh;
+      border-radius: 10px;
+      display: flex;
+      font-family: raleway;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  
+      h1 {
+        font-size: 2.5rem;
+      }
+  
+      .fernobutton {
+        padding: 10px 13px 10px 13px;
+        margin-top: 20px;
+      }
+  
+      .lower {
+        margin-left: 20px;
+      }
+    }
+    
+  }
+
+  .indexes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .index {
+    .indexed {
+      .box1 {
+        width: 60%;
+        h1 {
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 536px) {
+  .index {
+    .box1 {
+      height: 55vh;
+      width: 80%;
       h1 {
         font-size: 1.6rem;
       }
