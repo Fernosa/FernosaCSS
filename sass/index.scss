@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Montserrat:wght@100;200;300;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$fonts: (
+  "inter": inter,
+  "raleway": raleway,
+  "roboto": roboto,
+  "montserrat": montserrat,
+  "quicksand": quicksand,
+  "poppins": poppins,
+);
+
+$theme-colors: (
+    "danger": #ea3c53,
+    "danger-dark": #bf0f26,
+    "secondary": #BD85F8,
+    "secondary-dark": #862de6,
+    "success": #32cd32,
+    "success-dark": #0f9d0f,
+    "primary": #0074ff,
+    "primary-dark": #0358c1,
+    "warning": #ffee00,
+    "warning-dark": #dcd027,
+    "default": #00b895,
+    "default-dark": #01836b,
+    "info": #407dc7,
+    "info-dark": #134f98,
+);
+
+@import "components/buttons";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: rgb(245, 241, 241)
+}
+
